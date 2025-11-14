@@ -12,3 +12,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct ADDPN;
+crate::impl_paired_tag!(ADDPN, "addpn");

@@ -10,3 +10,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct SUP;
+crate::impl_paired_tag!(SUP, "sup");

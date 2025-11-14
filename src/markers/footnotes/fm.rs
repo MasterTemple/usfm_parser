@@ -15,3 +15,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct FM;
+crate::impl_paired_tag!(FM, "fm");

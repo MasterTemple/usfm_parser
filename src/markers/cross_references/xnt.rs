@@ -10,3 +10,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct XNT;
+crate::impl_paired_tag!(XNT, "xnt");

@@ -19,3 +19,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct ADD;
+crate::impl_paired_tag!(ADD, "add");

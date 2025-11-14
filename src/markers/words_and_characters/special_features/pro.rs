@@ -13,3 +13,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct PRO;
+crate::impl_paired_tag!(PRO, "pro");

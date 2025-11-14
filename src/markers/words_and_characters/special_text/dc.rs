@@ -45,3 +45,4 @@ dead will be raised, never to die again, and we shall all be changed.
 */
 #[derive(crate::Marker!)]
 pub struct DC;
+crate::impl_paired_tag!(DC, "dc");

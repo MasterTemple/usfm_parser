@@ -10,3 +10,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct WA;
+crate::impl_paired_tag!(WA, "wa");

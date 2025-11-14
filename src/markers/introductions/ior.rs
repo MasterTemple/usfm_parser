@@ -22,3 +22,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct IOR;
+crate::impl_paired_tag!(IOR, "ior");

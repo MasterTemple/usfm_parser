@@ -10,3 +10,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct BDIT;
+crate::impl_paired_tag!(BDIT, "bdit");

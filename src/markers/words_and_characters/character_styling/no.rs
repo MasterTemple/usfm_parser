@@ -11,3 +11,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct NO;
+crate::impl_paired_tag!(NO, "no");

@@ -11,3 +11,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct NDX;
+crate::impl_paired_tag!(NDX, "ndx");

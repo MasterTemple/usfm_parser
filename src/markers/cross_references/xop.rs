@@ -29,3 +29,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct XOP;
+crate::impl_paired_tag!(XOP, "xop");

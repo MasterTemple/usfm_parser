@@ -19,3 +19,4 @@ my chains!
 */
 #[derive(crate::Marker!)]
 pub struct SIG;
+crate::impl_paired_tag!(SIG, "sig");

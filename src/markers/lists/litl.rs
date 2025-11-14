@@ -40,3 +40,4 @@ Bilshan, Mispereth, Bigvai, Nehum and Baanah):
 */
 #[derive(crate::Marker!)]
 pub struct LITL;
+crate::impl_paired_tag!(LITL, "litl");

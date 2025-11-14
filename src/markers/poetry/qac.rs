@@ -36,3 +36,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct QAC;
+crate::impl_paired_tag!(QAC, "qac");

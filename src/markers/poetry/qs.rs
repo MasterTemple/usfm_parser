@@ -35,3 +35,4 @@ Psalm 24.10 (NRSV)
 */
 #[derive(crate::Marker!)]
 pub struct QS;
+crate::impl_paired_tag!(QS, "qs");

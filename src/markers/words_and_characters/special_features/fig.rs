@@ -15,3 +15,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct FIG;
+crate::impl_paired_tag!(FIG, "fig");

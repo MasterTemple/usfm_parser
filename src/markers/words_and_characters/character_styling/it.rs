@@ -10,3 +10,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct IT;
+crate::impl_paired_tag!(IT, "it");

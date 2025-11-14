@@ -29,3 +29,4 @@ that David was hiding in their territory.
 */
 #[derive(crate::Marker!)]
 pub struct CA;
+crate::impl_paired_tag!(CA, "ca");

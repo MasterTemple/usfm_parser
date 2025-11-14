@@ -13,3 +13,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct IQT;
+crate::impl_paired_tag!(IQT, "iqt");

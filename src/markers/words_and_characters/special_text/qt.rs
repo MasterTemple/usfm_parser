@@ -45,3 +45,4 @@ Mark 1.2-3 (GNT)
 */
 #[derive(crate::Marker!)]
 pub struct QT;
+crate::impl_paired_tag!(QT, "qt");

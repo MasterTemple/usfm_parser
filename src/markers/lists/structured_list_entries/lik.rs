@@ -8,3 +8,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct LIK;
+crate::impl_paired_tag!(LIK, "lik");

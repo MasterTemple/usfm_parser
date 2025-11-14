@@ -22,3 +22,4 @@ and to the ends of the earth” (1.8).
 */
 #[derive(crate::Marker!)]
 pub struct BK;
+crate::impl_paired_tag!(BK, "bk");

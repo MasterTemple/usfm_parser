@@ -34,3 +34,4 @@ dead will be raised, never to die again, and we shall all be changed.
 */
 #[derive(crate::Marker!)]
 pub struct XDC;
+crate::impl_paired_tag!(XDC, "xdc");

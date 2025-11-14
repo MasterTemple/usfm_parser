@@ -12,3 +12,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct PNG;
+crate::impl_paired_tag!(PNG, "png");

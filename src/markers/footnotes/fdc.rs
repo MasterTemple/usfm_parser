@@ -25,3 +25,4 @@ mucho más importante que el de ellos.
 */
 #[derive(crate::Marker!)]
 pub struct FDC;
+crate::impl_paired_tag!(FDC, "fdc");

@@ -28,3 +28,4 @@ within anyone who believes in me.’”\f*
 */
 #[derive(crate::Marker!)]
 pub struct FV;
+crate::impl_paired_tag!(FV, "fv");

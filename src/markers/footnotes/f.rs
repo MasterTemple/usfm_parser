@@ -30,3 +30,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct F;
+crate::impl_paired_tag!(F, "f");
