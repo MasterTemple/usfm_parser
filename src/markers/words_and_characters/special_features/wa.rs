@@ -1,5 +1,5 @@
 /**
-# `\wa ...\\wa\*`
+# `\wa ...\wa\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#wa-wa)
 

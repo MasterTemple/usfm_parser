@@ -1,5 +1,5 @@
 /**
-# `\qs ...\\qs\*`
+# `\qs ...\qs\*`
 
 [Source](https://ubsicap.github.io/usfm/poetry/index.html#qs-qs)
 

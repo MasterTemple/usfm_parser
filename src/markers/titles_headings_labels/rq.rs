@@ -1,5 +1,5 @@
 /**
-# `\rq ...\\rq\*`
+# `\rq ...\rq\*`
 
 [Source](https://ubsicap.github.io/usfm/titles_headings/index.html#rq-rq)
 
@@ -10,7 +10,7 @@
     A reference indicating the source text for the preceding quotation (usually an Old Testament quote).
 
 .. note::
-    \\rq ...\\rq* reference(s) are intended to be formatted (typeset) within the scripture body text column, and not extracted from the text as are regular cross references (`\\x ...\\x*`). They are also typically separated from the main text of Scripture using a different type style and alignment.
+    \rq ...\rq* reference(s) are intended to be formatted (typeset) within the scripture body text column, and not extracted from the text as are regular cross references (`\x ...\x*`). They are also typically separated from the main text of Scripture using a different type style and alignment.
 
 **Text and Formatting Sample** - Hebrews 1.5 (GNT)
 

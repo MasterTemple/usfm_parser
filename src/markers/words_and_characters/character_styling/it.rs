@@ -1,5 +1,5 @@
 /**
-# `\it ...\\it\*`
+# `\it ...\it\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#it-it)
 

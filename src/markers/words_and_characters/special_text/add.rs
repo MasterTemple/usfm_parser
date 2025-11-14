@@ -1,5 +1,5 @@
 /**
-# `\add ...\\add\*`
+# `\add ...\add\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#add-add)
 

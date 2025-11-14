@@ -10,7 +10,7 @@
 
 .. note::
 
-    **Usage note:** If \\cl is entered once before chapter 1 (\\c 1) it represents the text for "chapter" to be used throughout the current book. If \\cl is used after each individual chapter marker, it represents the particular text to be used for the display of the current chapter heading (usually done if numbers are being presented as words, not numerals).
+    **Usage note:** If \cl is entered once before chapter 1 (\c 1) it represents the text for "chapter" to be used throughout the current book. If \cl is used after each individual chapter marker, it represents the particular text to be used for the display of the current chapter heading (usually done if numbers are being presented as words, not numerals).
 
 **Text and Formatting Samples** - Psalm 1 (GNT - *markup adapted* - general chapter label)
 

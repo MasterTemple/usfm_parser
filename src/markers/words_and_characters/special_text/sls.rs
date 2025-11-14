@@ -1,5 +1,5 @@
 /**
-# `\sls ...\\sls\*`
+# `\sls ...\sls\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#sls-sls)
 

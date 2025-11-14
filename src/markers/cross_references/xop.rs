@@ -1,5 +1,5 @@
 /**
-# `\xop ...\\xop\*`
+# `\xop ...\xop\*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/xrefs.html#xop-xop)
 
@@ -7,7 +7,7 @@
 - **Type**: `character (note)`
 - **Added**: `3.0`
 - **Use**: Published cross reference origin text. \
-    In some texts, the content intended to be published in the position of the cross reference origin text `\xo` does not follow the typical `` pattern. An origin reference following this pattern is required for validation of the cross reference location. `\xop ...\xop*` can be used in order to supply the content intended for publishing, similar to the use of `\\cp` and `\vp ...\vp*`.
+    In some texts, the content intended to be published in the position of the cross reference origin text `\xo` does not follow the typical `` pattern. An origin reference following this pattern is required for validation of the cross reference location. `\xop ...\xop*` can be used in order to supply the content intended for publishing, similar to the use of `\cp` and `\vp ...\vp*`.
 
 **Text and Formatting Sample** - Jonah 1.1-5 (Bulgarian Orthodox Bible)
 

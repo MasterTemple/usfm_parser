@@ -8,7 +8,7 @@
 - **Added**: `1.0`
 - **Use**: Indented flush left paragraph. \
     No first line indent. \
-    *See also* `\\pmo`, `\\pmc`
+    *See also* `\pmo`, `\pmc`
 
 **Text and Formatting Sample** - Matthew 11.18-19 (CEV)
 

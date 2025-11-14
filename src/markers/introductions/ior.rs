@@ -1,5 +1,5 @@
 /**
-# `\ior ...\\ior\*`
+# `\ior ...\ior\*`
 
 [Source](https://ubsicap.github.io/usfm/introductions/index.html#ior-ior)
 

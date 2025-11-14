@@ -3,7 +3,7 @@
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/xrefs.html#xta)
 
-- **Syntax**: `\\xta_text...`
+- **Syntax**: `\xta_text...`
 - **Type**: `character (note)`
 - **Added**: `3.0`
 - **Use**: Target reference(s) extra / added text. \

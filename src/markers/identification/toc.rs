@@ -5,7 +5,7 @@
 
 - **Syntax**: `\toc1_text...`
 - **Type**: `paragraph`
-- **Added**: `2.03, 2.04 (\\toc3)`
+- **Added**: `2.03, 2.04 (\toc3)`
 - **Use**: Long table of contents text.
 
 - **Syntax**: `\toc2_text...`

@@ -9,7 +9,7 @@
 - **Use**: Introduction major title ending. \
     Used to mark a major title indicating the end of the introduction. \
     The variable # represents a portion of the title, with the lesser emphasis (relative weighting) being on the higher numbers. \
-    **\\imte = \\imte1** (see `syntax notes` on numbered markers)
+    **\imte = \imte1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Introduction to Mark
 

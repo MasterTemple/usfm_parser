@@ -1,5 +1,5 @@
 /**
-# `\tl ...\\tl\*`
+# `\tl ...\tl\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#tl-tl)
 

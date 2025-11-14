@@ -7,7 +7,7 @@
 - **Type**: `paragraph`
 - **Added**: `3.0`
 - **Use**: List header. \
-    Some lists include an introductory and concluding remark (`\\lf`). They are an integral part of the list content, but are not list items. A list does not require either or both of these elements.
+    Some lists include an introductory and concluding remark (`\lf`). They are an integral part of the list content, but are not list items. A list does not require either or both of these elements.
 
 **Text and Formatting Sample** - 1 Chronicles 27:16-22 (GNT - *markup adapted*)
 

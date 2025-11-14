@@ -1,5 +1,5 @@
 /**
-# `\rb ...\\rb\*`
+# `\rb ...\rb\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#rb-rb)
 

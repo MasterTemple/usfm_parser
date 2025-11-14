@@ -8,7 +8,7 @@
 - **Added**: `1.0`
 - **Use**:     Introduction poetic line. \
     The variable # represents the indent level (i.e. \iq1, \iq2, \iq3 etc.) \
-    **\\iq = \\iq1** (see `syntax notes` on numbered markers)
+    **\iq = \iq1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Introduction to Titus (CEV)
 

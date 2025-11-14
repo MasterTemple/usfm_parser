@@ -7,7 +7,7 @@
 - **Type**: `paragraph`
 - **Added**: `1.0`
 - **Use**: Parallel passage reference(s). \
-    A reference to a parallel passage usually located under a section heading `\\s#`.
+    A reference to a parallel passage usually located under a section heading `\s#`.
 
 **Text and Formatting Sample** - Matthew 3.1 (GNT)
 

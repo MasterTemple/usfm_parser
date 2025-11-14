@@ -1,5 +1,5 @@
 /**
-# `\x ...\\x\*`
+# `\x ...\x\*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/xrefs.html#x-x)
 

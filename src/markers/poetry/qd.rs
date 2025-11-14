@@ -3,11 +3,11 @@
 
 [Source](https://ubsicap.github.io/usfm/poetry/index.html#qd)
 
-- **Syntax**: `\\qd_text...`
+- **Syntax**: `\qd_text...`
 - **Type**: `paragraph`
 - **Added**: `3.0`
 - **Use**: Hebrew note. \
-    A Hebrew musical performance comment similar in content to many of the Hebrew Psalm titles (`\\d`), but placed at the end of the poetic section.
+    A Hebrew musical performance comment similar in content to many of the Hebrew Psalm titles (`\d`), but placed at the end of the poetic section.
 
 **Text and Formatting Sample** - Habakkuk 3:19 (NIV)
 

@@ -1,5 +1,5 @@
 /**
-# `\qac ...\\qac\*`
+# `\qac ...\qac\*`
 
 [Source](https://ubsicap.github.io/usfm/poetry/index.html#qac-qac)
 

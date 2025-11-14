@@ -1,5 +1,5 @@
 /**
-# `\fv ...\\fv\*`
+# `\fv ...\fv\*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/fnotes.html#fv-fv)
 
@@ -11,7 +11,7 @@
 
 ## Note
 
-> This marker will typically be nested within another footnote content element, like `\\ft`, `\\fq` or `\\fqa`. See `Nesting Character Markup` for details.
+> This marker will typically be nested within another footnote content element, like `\ft`, `\fq` or `\fqa`. See `Nesting Character Markup` for details.
 
 **Text and Formatting Sample** - John 7.38 (GNT)
 

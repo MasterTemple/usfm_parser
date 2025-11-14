@@ -3,7 +3,7 @@
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/xrefs.html#xt)
 
-- **Syntax**: `\\xt_refs...`
+- **Syntax**: `\xt_refs...`
 - **Type**: `character (note)`
 - **Added**: `1.0`
 - **Updated**: 3.0 (attributes)

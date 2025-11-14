@@ -8,7 +8,7 @@
 - **Added**: `1.0`
 - **Use**: Blank line. \
     May be used to explicitly indicate additional white space between paragraphs. \
-    *See also:* Poetry elements `\\b` (used for stanza breaks in poetry, or between poetry and prose).
+    *See also:* Poetry elements `\b` (used for stanza breaks in poetry, or between poetry and prose).
 
 ## Warning
 

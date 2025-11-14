@@ -1,5 +1,5 @@
 /**
-# `\rq ...\\rq\*`
+# `\rq ...\rq\*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/xrefs.html#rq-rq)
 

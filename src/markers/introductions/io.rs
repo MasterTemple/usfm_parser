@@ -7,9 +7,9 @@
 - **Type**: `paragraph`
 - **Added**: `1.0`
 - **Use**: Introduction outline entry. \
-    The outline entry typically ends with a range of references in parentheses. References may be marked with `\\ior ...\\ior*`. \
+    The outline entry typically ends with a range of references in parentheses. References may be marked with `\ior ...\ior*`. \
     The variable # represents the outline (indent) level. \
-    **\\io = \\io1** (see `syntax notes` on numbered markers)
+    **\io = \io1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Introduction to Mark (CEV)
 

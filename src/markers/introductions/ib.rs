@@ -19,7 +19,7 @@ God would someday keep his promise to his people:
 care of you and lead you out of Egypt to the land he promised Abraham, Isaac, and Jacob.”
 ```
 
-*See also* `\\ipq`, `\\imq` examples (above).
+*See also* `\ipq`, `\imq` examples (above).
 */
 #[derive(crate::Marker!)]
 pub struct IB;

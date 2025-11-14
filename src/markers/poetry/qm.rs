@@ -7,8 +7,8 @@
 - **Type**: `paragraph`
 - **Added**: `2.0`
 - **Use**: Embedded text poetic line. \
-    The variable # represents the level of indent (i.e. \\qm1, \\qm2 etc.). \
-    **\\qm = \\qm1** (see `syntax notes` on numbered markers)
+    The variable # represents the level of indent (i.e. \qm1, \qm2 etc.). \
+    **\qm = \qm1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - 1 Chronicles 12.18 (GNT - *markup adapted*)
 

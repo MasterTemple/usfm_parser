@@ -1,5 +1,5 @@
 /**
-# `\bd ...\\bd\*`
+# `\bd ...\bd\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#bd-bd)
 

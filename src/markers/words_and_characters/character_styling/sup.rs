@@ -1,5 +1,5 @@
 /**
-# `\sup ...\\sup\*`
+# `\sup ...\sup\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#sup-sup)
 

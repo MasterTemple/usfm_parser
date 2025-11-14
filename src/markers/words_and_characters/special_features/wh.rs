@@ -1,5 +1,5 @@
 /**
-# `\wh ...\\wh\*`
+# `\wh ...\wh\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#wh-wh)
 

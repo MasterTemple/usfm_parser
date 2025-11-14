@@ -8,7 +8,7 @@
 - **Added**: `1.0`
 - **Use**: Poetic line. \
     The variable # represents the level of indent (i.e. \q1, \q2, \q3 etc.). \
-    **\\q = \\q1** (see `syntax notes` on numbered markers)
+    **\q = \q1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Examples** - Habakkuk 3.1-2 (GNT)
 

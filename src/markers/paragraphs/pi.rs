@@ -9,8 +9,8 @@
 - **Use**: Indented paragraph. \
     Used in some texts for discourse sections. \
     The variable # represents the level of indent. \
-    *See also* `\\pm` \
-    **\\pi = \\pi1** (see `syntax notes` on numbered markers)
+    *See also* `\pm` \
+    **\pi = \pi1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Matthew 13.37-39 (CEV)
 

@@ -7,7 +7,7 @@
 - **Type**: `paragraph`
 - **Added**: `1.0`
 - **Use**: Published chapter character. \
-    This is the chapter character (number, letter) which should be displayed in the published text (where the published marker is different than the `\\c #` used within the translation editing environment).
+    This is the chapter character (number, letter) which should be displayed in the published text (where the published marker is different than the `\c #` used within the translation editing environment).
 
 **Text and Formatting Sample** - Esther-Greek 1 ("A") (GNT)
 

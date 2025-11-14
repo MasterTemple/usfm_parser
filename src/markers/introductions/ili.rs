@@ -8,7 +8,7 @@
 - **Added**: `1.0`
 - **Use**: Introduction list item. \
     The variable # represents the level of indent. \
-    **\\ili = \\ili1** (see `syntax notes` on numbered markers)
+    **\ili = \ili1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Introduction to Mark (Good News Study Bible)
 

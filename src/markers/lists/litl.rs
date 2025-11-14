@@ -1,5 +1,5 @@
 /**
-# `\litl ...\\litl\*`
+# `\litl ...\litl\*`
 
 [Source](https://ubsicap.github.io/usfm/lists/index.html#litl-litl)
 
@@ -7,7 +7,7 @@
 - **Type**: `character`
 - **Added**: `3.0`
 - **Use**: List entry total. \
-    Use in “accounting” lists for denoting the total component of the text within a list item (`\\li`). An alternative to using `tables` for the same content.
+    Use in “accounting” lists for denoting the total component of the text within a list item (`\li`). An alternative to using `tables` for the same content.
 
 **Text and Formatting Sample** - Nehemiah 7.6-14 (GNT - *markup adapted*)
 

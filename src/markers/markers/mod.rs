@@ -47,6 +47,7 @@ use crate::markers::{
 };
 
 #[enum_dispatch]
+#[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord)]
 pub enum AnyMarker {
     ADD,
     ADDPN,

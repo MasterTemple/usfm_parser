@@ -9,8 +9,8 @@
 - **Use**: Embedded list entry. \
     An out-dented paragraph meant to highlight the items of an embedded list. \
     The variable # represents the level of indent. \
-    **\\lim = \\lim1** (see `syntax notes` on numbered markers) \
-    |ico_See| *See also* `\\li#`
+    **\lim = \lim1** (see `syntax notes` on numbered markers) \
+    |ico_See| *See also* `\li#`
 
 **Text and Formatting Sample** - Nehemiah 7.4-25 (NIV)
 

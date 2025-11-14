@@ -7,9 +7,9 @@
 - **Type**: `paragraph`
 - **Added**: `1.0`
 - **Use**: Major section heading. \
-    These are headings before larger text divisions than what is typically considered a "section" division (see `\\s#`). \
+    These are headings before larger text divisions than what is typically considered a "section" division (see `\s#`). \
     The variable # represents the level of division. \
-    **\\ms = \\ms1** (see `syntax notes` on numbered markers)
+    **\ms = \ms1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Samples** - Psalm 1 (Book 1 division) (GNT)
 

@@ -8,7 +8,7 @@
 - **Added**: `1.0`
 - **Use**: Introduction section heading. \
     The variable # denotes the title level or relative weighting. \
-    **\\is = \\is1** (see `syntax notes` on numbered markers)
+    **\is = \is1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Introduction to Mark (RVE)
 

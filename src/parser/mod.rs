@@ -10,7 +10,7 @@ pub struct Node<'a> {
     child: Box<Node<'a>>,
 }
 
-const BACKSLASH: char = '\\';
+const BACKSLASH: char = '\';
 
 // /// `\? .*`
 // // fn leading<'a>() -> impl Parser<'a, &'a str, (&'a str, &'a str), Err<Rich<'a, char>>> {
@@ -30,5 +30,5 @@ const BACKSLASH: char = '\\';
 //
 // #[test]
 // fn test_leading() {
-//     dbg!(leading().parse("\\h Romans"));
+//     dbg!(leading().parse("\h Romans"));
 // }

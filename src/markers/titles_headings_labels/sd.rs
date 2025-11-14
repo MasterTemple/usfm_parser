@@ -7,10 +7,10 @@
 - **Type**: `paragraph`
 - **Added**: `3.0`
 - **Use**: Semantic division (semantic space). \
-    Vertical space used to divide the text into sections, in a manner similar to the structure added through the use of a sequence of heading texts (i.e. `\\ms#` and `\\s#`). \
-    The purpose of `\sd#` is distinct from `\\b` which primarily denotes whitespace (and in particular at poetic stanza breaks) and not hierarchy or division.
+    Vertical space used to divide the text into sections, in a manner similar to the structure added through the use of a sequence of heading texts (i.e. `\ms#` and `\s#`). \
+    The purpose of `\sd#` is distinct from `\b` which primarily denotes whitespace (and in particular at poetic stanza breaks) and not hierarchy or division.
     The variable # represents the level of division being marked. \
-    **\\sd = \\sd1** (see `syntax notes` on numbered markers)
+    **\sd = \sd1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Matthew 13.51-54 (NIV "Books of the Bible"; chapter and verse numbers suppressed in layout; new sections begin with drop capital)
 

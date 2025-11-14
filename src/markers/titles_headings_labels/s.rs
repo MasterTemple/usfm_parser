@@ -9,7 +9,7 @@
 - **Use**: Section heading. \
     The typical (common) section division heading. \
     The variable # represents the level of division. \
-    **\\s = \\s1** (see `syntax notes` on numbered markers)
+    **\s = \s1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Samples** - Proverbs 22.17 (GNT)
 

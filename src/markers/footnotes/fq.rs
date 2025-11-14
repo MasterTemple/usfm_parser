@@ -12,7 +12,7 @@
 
 ## Note
 
-> Many existing translation texts have marked both quotations from the existing translation text, as well as alternative translations, using \fq. An additional marker – `\\fqa` – is provided for marking alternative translations, and can be used to distinguish between quotations and alternatives.
+> Many existing translation texts have marked both quotations from the existing translation text, as well as alternative translations, using \fq. An additional marker – `\fqa` – is provided for marking alternative translations, and can be used to distinguish between quotations and alternatives.
 
 **Text and Formatting Samples - Quotations and Alternative Translations** - Mark 1.1; 1.4 (GNT)
 

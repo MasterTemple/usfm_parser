@@ -10,7 +10,7 @@
     An out-dented paragraph meant to highlight the items of a list. \
     Lists may be used to markup the individual entries of a structure such as the days within the creation account, or the Decalogue (10 commandments). \
     The variable # represents the level of indent. \
-    **\\li = \\li1** (see `syntax notes` on numbered markers)
+    **\li = \li1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Sample** - Numbers 7.84-88 (GNT)
 

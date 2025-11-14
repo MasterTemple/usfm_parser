@@ -1,5 +1,5 @@
 /**
-# `\wg ...\\wg\*`
+# `\wg ...\wg\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#wg-wg)
 

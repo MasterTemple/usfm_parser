@@ -1,5 +1,5 @@
 /**
-# `\png ...\\png\*`
+# `\png ...\png\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#png-png)
 

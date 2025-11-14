@@ -1,5 +1,5 @@
 /**
-# `\sc ...\\sc\*`
+# `\sc ...\sc\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#sc-sc)
 

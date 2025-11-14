@@ -9,7 +9,7 @@
 - **Use**: Major title. \
     The key components in the title of a biblical book. \
     The variable # represents a portion of the title, with the lesser emphasis (relative weighting) being on the higher numbers. \
-    **\\mt = \\mt1** (see `syntax notes` on numbered markers)
+    **\mt = \mt1** (see `syntax notes` on numbered markers)
 
 **Text and Formatting Samples** - Introduction to Acts (GNT)
 

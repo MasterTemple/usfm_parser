@@ -1,5 +1,5 @@
 /**
-# `\qt ...\\qt\*`
+# `\qt ...\qt\*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#qt-qt)
 

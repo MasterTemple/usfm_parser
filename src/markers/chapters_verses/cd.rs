@@ -7,7 +7,7 @@
 - **Type**: `paragraph`
 - **Added**: `1.0`
 - **Use**: Chapter description. \
-    A brief description of chapter content (similar to `\\d` - descriptive heading, or `\\iex` - explanatory or bridge text).
+    A brief description of chapter content (similar to `\d` - descriptive heading, or `\iex` - explanatory or bridge text).
 
 **Text and Formatting Sample** - Genesis 2 (Russian Synodal, Protestant Version)
 

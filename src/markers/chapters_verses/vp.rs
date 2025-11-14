@@ -1,5 +1,5 @@
 /**
-# `\vp ...\\vp\*`
+# `\vp ...\vp\*`
 
 [Source](https://ubsicap.github.io/usfm/chapters_verses/index.html#vp-vp)
 
@@ -7,7 +7,7 @@
 - **Type**: `character`
 - **Added**: `1.0`
 - **Use**: Published verse character. \
-    This is the verse character (number, letter) which should be displayed in the published text (where the published character(s) are different than the `\\v #` digit used within the translation editing environment).
+    This is the verse character (number, letter) which should be displayed in the published text (where the published character(s) are different than the `\v #` digit used within the translation editing environment).
 
 **Text and Formatting Sample** - Esther-Greek 3.14,15 ("Addition B") (CEV)
 

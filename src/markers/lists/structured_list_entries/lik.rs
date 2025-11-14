@@ -1,5 +1,5 @@
 /**
-# `\lik ...\\lik\*`
+# `\lik ...\lik\*`
 
 - **Syntax**: `\lik text...\lik*`
 - **Type**: `character`
