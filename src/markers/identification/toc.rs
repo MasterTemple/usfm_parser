@@ -32,6 +32,6 @@ Matthew (Spanish DHH)
 \toc3 Mt
 ```
 */
-#[derive(crate::Marker!)]
-pub struct TOC;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct TOC(Option<u8>);
 crate::impl_weighted_tag!(TOC, "toc");

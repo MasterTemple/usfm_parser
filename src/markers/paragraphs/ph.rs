@@ -12,6 +12,6 @@
     **Deprecated** (i.e. use is strongly discouraged). \
     *Recommended alternate:* `\li#`
 */
-#[derive(crate::Marker!)]
-pub struct PH;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct PH(Option<u8>);
 crate::impl_weighted_tag!(PH, "ph");

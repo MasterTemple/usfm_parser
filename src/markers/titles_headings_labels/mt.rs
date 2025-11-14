@@ -35,6 +35,6 @@ Introduction to John (GNT)
 \is Introduction
 ```
 */
-#[derive(crate::Marker!)]
-pub struct MT;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct MT(Option<u8>);
 crate::impl_weighted_tag!(MT, "mt");

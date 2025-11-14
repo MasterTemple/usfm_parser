@@ -30,6 +30,6 @@ as written by someone other than the author of \bk Mark\bk*
 \v 1 This is the Good News about Jesus Christ
 ```
 */
-#[derive(crate::Marker!)]
-pub struct IO;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct IO(Option<u8>);
 crate::impl_weighted_tag!(IO, "io");

@@ -37,6 +37,6 @@ their groups, under their leaders, as follows:
 \tr \tcr1-2 Total: \tcr3 151,450
 ```
 */
-#[derive(crate::Marker!)]
-pub struct THR;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct THR(Option<u8>);
 crate::impl_weighted_tag!(THR, "thr");

@@ -34,6 +34,6 @@ be rejected, will suffer and die (8.31; 9.9, 12, 31; 10.33-34, 45; 14.21, 41); h
 in power and glory (8.38; 13.26; 14.62).
 ```
 */
-#[derive(crate::Marker!)]
-pub struct ILI;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct ILI(Option<u8>);
 crate::impl_weighted_tag!(ILI, "ili");

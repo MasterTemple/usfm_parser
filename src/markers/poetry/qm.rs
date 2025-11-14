@@ -23,6 +23,6 @@ of “The Thirty,” and he called out,
 \m David welcomed them and made them officers in his army.
 ```
 */
-#[derive(crate::Marker!)]
-pub struct QM;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct QM(Option<u8>);
 crate::impl_weighted_tag!(QM, "qm");

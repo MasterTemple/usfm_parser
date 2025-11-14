@@ -27,6 +27,6 @@ go with them, for the burnt offerings
 offerings
 ```
 */
-#[derive(crate::Marker!)]
-pub struct LI;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct LI(Option<u8>);
 crate::impl_weighted_tag!(LI, "li");

@@ -49,6 +49,6 @@ Bilshan, Mispereth, Bigvai, Nehum and Baanah):
 ...
 ```
 */
-#[derive(crate::Marker!)]
-pub struct LIM;
+#[derive(crate::Marker!, crate::Weighted!)]
+pub struct LIM(Option<u8>);
 crate::impl_weighted_tag!(LIM, "lim");
