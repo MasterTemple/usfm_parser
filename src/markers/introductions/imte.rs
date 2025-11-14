@@ -19,3 +19,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct IMTE;
+crate::impl_weighted_tag!(IMTE, "imte");

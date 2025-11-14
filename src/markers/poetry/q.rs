@@ -37,3 +37,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct Q;
+crate::impl_weighted_tag!(Q, "q");

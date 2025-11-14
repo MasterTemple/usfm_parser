@@ -29,3 +29,4 @@ offerings
 */
 #[derive(crate::Marker!)]
 pub struct LI;
+crate::impl_weighted_tag!(LI, "li");

@@ -30,3 +30,4 @@ their groups, under their leaders, as follows:
 */
 #[derive(crate::Marker!)]
 pub struct TCR;
+crate::impl_weighted_tag!(TCR, "tcr");

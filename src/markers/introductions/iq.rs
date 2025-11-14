@@ -27,3 +27,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct IQ;
+crate::impl_weighted_tag!(IQ, "iq");

@@ -31,3 +31,4 @@ those who stand helpless in court.
 */
 #[derive(crate::Marker!)]
 pub struct S;
+crate::impl_weighted_tag!(S, "s");

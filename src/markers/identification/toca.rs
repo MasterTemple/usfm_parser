@@ -17,3 +17,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct TOCA;
+crate::impl_weighted_tag!(TOCA, "toca");

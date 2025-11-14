@@ -39,3 +39,4 @@ their groups, under their leaders, as follows:
 */
 #[derive(crate::Marker!)]
 pub struct THR;
+crate::impl_weighted_tag!(THR, "thr");

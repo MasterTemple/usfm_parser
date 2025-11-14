@@ -12,3 +12,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct TH;
+crate::impl_weighted_tag!(TH, "th");

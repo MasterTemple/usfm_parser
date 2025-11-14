@@ -36,3 +36,4 @@ in power and glory (8.38; 13.26; 14.62).
 */
 #[derive(crate::Marker!)]
 pub struct ILI;
+crate::impl_weighted_tag!(ILI, "ili");

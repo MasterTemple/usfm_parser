@@ -24,3 +24,4 @@ igualmente en \bk Mateo\bk* y \bk Lucas\bk*.
 */
 #[derive(crate::Marker!)]
 pub struct IS;
+crate::impl_weighted_tag!(IS, "is");

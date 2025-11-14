@@ -51,3 +51,4 @@ Bilshan, Mispereth, Bigvai, Nehum and Baanah):
 */
 #[derive(crate::Marker!)]
 pub struct LIM;
+crate::impl_weighted_tag!(LIM, "lim");

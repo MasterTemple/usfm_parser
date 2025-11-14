@@ -30,3 +30,4 @@ angels are the ones who bring in the harvest.
 */
 #[derive(crate::Marker!)]
 pub struct PI;
+crate::impl_weighted_tag!(PI, "pi");

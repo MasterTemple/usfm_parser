@@ -32,3 +32,4 @@ as written by someone other than the author of \bk Mark\bk*
 */
 #[derive(crate::Marker!)]
 pub struct IO;
+crate::impl_weighted_tag!(IO, "io");

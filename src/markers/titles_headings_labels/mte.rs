@@ -21,3 +21,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct MTE;
+crate::impl_weighted_tag!(MTE, "mte");

@@ -31,3 +31,4 @@ were amazed. â€œWhere did this man get this wisdom and these miraculous powers?â
 */
 #[derive(crate::Marker!)]
 pub struct SD;
+crate::impl_weighted_tag!(SD, "sd");

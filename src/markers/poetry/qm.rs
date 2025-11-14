@@ -25,3 +25,4 @@ of “The Thirty,” and he called out,
 */
 #[derive(crate::Marker!)]
 pub struct QM;
+crate::impl_weighted_tag!(QM, "qm");

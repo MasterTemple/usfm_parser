@@ -37,3 +37,4 @@ attacked Jerusalem and surrounded the city.
 */
 #[derive(crate::Marker!)]
 pub struct MS;
+crate::impl_weighted_tag!(MS, "ms");
