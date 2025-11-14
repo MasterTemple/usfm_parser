@@ -33,3 +33,4 @@ people:
 */
 #[derive(crate::Marker!)]
 pub struct PO;
+crate::impl_simple_tag!(PO, "po");

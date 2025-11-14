@@ -24,3 +24,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct CD;
+crate::impl_simple_tag!(CD, "cd");

@@ -27,3 +27,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct QR;
+crate::impl_simple_tag!(QR, "qr");

@@ -26,3 +26,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct QC;
+crate::impl_simple_tag!(QC, "qc");

@@ -21,3 +21,4 @@ Lk 3.1-18; \xta and \xt Jn 1.19-28 \xta parallel passages.\x*
 */
 #[derive(crate::Marker!)]
 pub struct XTA;
+crate::impl_simple_tag!(XTA, "xta");

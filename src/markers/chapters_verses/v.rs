@@ -24,3 +24,4 @@ Mary publicly; so he made plans to break the engagement privately.
 */
 #[derive(crate::Marker!)]
 pub struct V;
+crate::impl_simple_tag!(V, "v");

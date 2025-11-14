@@ -27,3 +27,4 @@ we are writing.
 */
 #[derive(crate::Marker!)]
 pub struct PM;
+crate::impl_simple_tag!(PM, "pm");

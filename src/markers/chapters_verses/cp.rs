@@ -23,3 +23,4 @@ Jerusalem. ...
 */
 #[derive(crate::Marker!)]
 pub struct CP;
+crate::impl_simple_tag!(CP, "cp");

@@ -25,3 +25,4 @@ But we did not send them!
 */
 #[derive(crate::Marker!)]
 pub struct PMO;
+crate::impl_simple_tag!(PMO, "pmo");

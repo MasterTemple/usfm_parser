@@ -23,3 +23,4 @@ Jesus speaks of himself as the Son of Man, who came to give his life to set peop
 */
 #[derive(crate::Marker!)]
 pub struct IP;
+crate::impl_simple_tag!(IP, "ip");

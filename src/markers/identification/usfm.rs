@@ -18,3 +18,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct USFM;
+crate::impl_simple_tag!(USFM, "usfm");

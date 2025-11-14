@@ -31,3 +31,4 @@ drinks too much! He is even a friend of tax collectors ...
 */
 #[derive(crate::Marker!)]
 pub struct MI;
+crate::impl_simple_tag!(MI, "mi");

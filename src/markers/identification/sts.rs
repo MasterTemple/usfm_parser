@@ -20,3 +20,4 @@ The text following this marker is not normally used in any formatted presentatio
 */
 #[derive(crate::Marker!)]
 pub struct STS;
+crate::impl_simple_tag!(STS, "sts");

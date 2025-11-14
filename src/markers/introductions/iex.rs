@@ -18,3 +18,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct IEX;
+crate::impl_simple_tag!(IEX, "iex");

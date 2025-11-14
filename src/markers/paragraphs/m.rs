@@ -28,3 +28,4 @@ of the Law say that the Messiah will be the descendant of David?
 */
 #[derive(crate::Marker!)]
 pub struct M;
+crate::impl_simple_tag!(M, "m");

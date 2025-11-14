@@ -11,3 +11,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct FP;
+crate::impl_simple_tag!(FP, "fp");

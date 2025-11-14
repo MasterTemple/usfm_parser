@@ -21,3 +21,4 @@ The text following this marker is not normally used in any formatted presentatio
 */
 #[derive(crate::Marker!)]
 pub struct IDE;
+crate::impl_simple_tag!(IDE, "ide");

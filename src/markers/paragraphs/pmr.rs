@@ -10,3 +10,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct PMR;
+crate::impl_simple_tag!(PMR, "pmr");

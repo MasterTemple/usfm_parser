@@ -31,3 +31,4 @@ and be baptized,” he told the people, “and God will forgive your sins.”
 */
 #[derive(crate::Marker!)]
 pub struct P;
+crate::impl_simple_tag!(P, "p");

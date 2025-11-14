@@ -24,3 +24,4 @@ Version\bk* of the Bible...
 */
 #[derive(crate::Marker!)]
 pub struct IM;
+crate::impl_simple_tag!(IM, "im");

@@ -2,7 +2,7 @@ use chumsky::prelude::*;
 use chumsky::text::{Char, inline_whitespace, newline, whitespace};
 use chumsky::{Parser, error::Rich, extra::Err, prelude::just, text};
 
-use crate::markers::markers::AnyMarker;
+use crate::markers::markers::any::AnyMarker;
 
 pub struct Node<'a> {
     tag: AnyMarker,
@@ -10,7 +10,7 @@ pub struct Node<'a> {
     child: Box<Node<'a>>,
 }
 
-const BACKSLASH: char = '\';
+const BACKSLASH: char = '\\';
 
 // /// `\? .*`
 // // fn leading<'a>() -> impl Parser<'a, &'a str, (&'a str, &'a str), Err<Rich<'a, char>>> {

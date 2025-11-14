@@ -8,16 +8,4 @@ pub mod categories;
 pub mod markers;
 pub mod parser;
 
-pub trait SimpleTag {
-    fn simple_tag() -> &'static str;
-}
-
-pub trait WeightedTag {
-    fn weighted_tag(&self) -> String;
-}
-
-pub trait PairedTag {
-    fn paired_tag(&self) -> String;
-}
-
 fn main() {}

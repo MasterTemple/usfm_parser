@@ -13,3 +13,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct TR;
+crate::impl_simple_tag!(TR, "tr");

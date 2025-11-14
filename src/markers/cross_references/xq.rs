@@ -11,3 +11,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct XQ;
+crate::impl_simple_tag!(XQ, "xq");

@@ -23,3 +23,4 @@ Version\bk* of the Bible...
 */
 #[derive(crate::Marker!)]
 pub struct IMI;
+crate::impl_simple_tag!(IMI, "imi");

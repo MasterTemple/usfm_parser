@@ -27,3 +27,4 @@ worships it; the \nd Lord\nd* hates idolatry.’
 */
 #[derive(crate::Marker!)]
 pub struct PR;
+crate::impl_simple_tag!(PR, "pr");

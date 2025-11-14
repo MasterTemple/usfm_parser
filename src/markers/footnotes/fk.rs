@@ -23,3 +23,4 @@ and he clothed them.
 */
 #[derive(crate::Marker!)]
 pub struct FK;
+crate::impl_simple_tag!(FK, "fk");

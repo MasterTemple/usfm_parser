@@ -24,3 +24,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct IE;
+crate::impl_simple_tag!(IE, "ie");

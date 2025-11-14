@@ -19,3 +19,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct CLS;
+crate::impl_simple_tag!(CLS, "cls");

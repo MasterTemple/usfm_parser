@@ -24,11 +24,5 @@ descendant of Abraham.
 ```
 */
 #[derive(crate::Marker!)]
-pub struct C(usize);
-
-#[test]
-fn c() {
-    let a = C(1);
-    let b = a.clone();
-    assert_eq!(a, b);
-}
+pub struct C;
+crate::impl_simple_tag!(C, "c");

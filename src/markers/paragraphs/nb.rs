@@ -32,3 +32,4 @@ sat down and started teaching them.
 */
 #[derive(crate::Marker!)]
 pub struct NB;
+crate::impl_simple_tag!(NB, "nb");

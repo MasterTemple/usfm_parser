@@ -22,3 +22,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct SR;
+crate::impl_simple_tag!(SR, "sr");

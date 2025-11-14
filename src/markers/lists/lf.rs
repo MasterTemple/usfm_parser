@@ -33,3 +33,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct LF;
+crate::impl_simple_tag!(LF, "lf");

@@ -21,3 +21,4 @@ with all other books of the Old Testament: Tobit, Judith, Greek Esther ...
 */
 #[derive(crate::Marker!)]
 pub struct IPI;
+crate::impl_simple_tag!(IPI, "ipi");

@@ -29,3 +29,4 @@ as written by someone other than the author of \bk Mark\bk*
 */
 #[derive(crate::Marker!)]
 pub struct IOT;
+crate::impl_simple_tag!(IOT, "iot");

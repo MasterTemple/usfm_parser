@@ -35,3 +35,4 @@ do not accuse anyone falsely; do not cheat; respect your father and your mother.
 */
 #[derive(crate::Marker!)]
 pub struct XT;
+crate::impl_simple_tag!(XT, "xt");

@@ -21,3 +21,4 @@ not commit any terrible sexual sins. If you follow these instructions, you will 
 */
 #[derive(crate::Marker!)]
 pub struct PMC;
+crate::impl_simple_tag!(PMC, "pmc");

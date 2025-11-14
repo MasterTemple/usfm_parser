@@ -32,3 +32,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct LIT;
+crate::impl_simple_tag!(LIT, "lit");

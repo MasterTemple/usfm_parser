@@ -27,3 +27,4 @@ Matthew 4.1 (Nestle-Aland 29)
 */
 #[derive(crate::Marker!)]
 pub struct FW;
+crate::impl_simple_tag!(FW, "fw");

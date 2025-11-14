@@ -23,3 +23,4 @@ care of you and lead you out of Egypt to the land he promised Abraham, Isaac, an
 */
 #[derive(crate::Marker!)]
 pub struct IMQ;
+crate::impl_simple_tag!(IMQ, "imq");

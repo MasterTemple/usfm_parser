@@ -12,3 +12,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct FR;
+crate::impl_simple_tag!(FR, "fr");

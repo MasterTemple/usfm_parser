@@ -33,3 +33,4 @@
 */
 #[derive(crate::Marker!)]
 pub struct LH;
+crate::impl_simple_tag!(LH, "lh");

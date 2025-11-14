@@ -24,3 +24,4 @@ their lives for Jesus. This surprising sight amazed me, ...
 */
 #[derive(crate::Marker!)]
 pub struct PC;
+crate::impl_simple_tag!(PC, "pc");
