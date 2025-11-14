@@ -1,0 +1,21 @@
+/**
+# `\rb ...\\rb\*`
+
+[Source](https://ubsicap.github.io/usfm/characters/index.html#rb-rb)
+
+- **Syntax**: `\rb_base text|gloss1:gloss2\rb*`
+- **Type**: `character`
+- **Added**: `3.0`
+- **Use**: Ruby glossing. \
+    Used to mark the base text being annotated with ruby characters.
+
+.. note::
+
+    **About Ruby**
+    |ico_See| *See:* https://www.w3.org/TR/ruby/
+
+    **Han characters:** Chinese, Japanese, and Korean texts have some characters that they share in common. In Japanese these are called Kanji (literally “Han characters”). There are several thousand of these characters to learn. For new readers or readers new to the Biblical texts it may be very difficult for them to recognize what Chinese or Japanese word corresponds to the Han character(s) they are seeing.
+
+    **Ruby glosses:** In order to help these readers, some Bibles are printed with glosses using small phonetic characters (e.g. Japanese uses the hiragana alphabet) placed above the more symbolic Han characters to tell the reader how to pronounce the character. These phonetic characters are generically called "ruby glosses" or "rubies". In Japanese this technique is called Furigana.
+*/
+pub struct RB;

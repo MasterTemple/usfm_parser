@@ -1,0 +1,26 @@
+/**
+# `\qa`
+
+[Source](https://ubsicap.github.io/usfm/poetry/index.html#qa)
+
+- **Syntax**: `\qa_text...`
+- **Type**: `paragraph`
+- **Added**: `1.0`
+- **Use**: Acrostic heading.
+
+**Text and Formatting Sample** - Psalm 119 (NIV)
+
+```usfm
+\c 119
+\qa Aleph
+\q1
+\v 1 Blessed are they whose ways are blameless,
+\q2 who walk according to the law of the \nd Lord\nd*.
+...
+\qa Beth
+\q1
+\v 9 How can a young man keep his way pure?
+\q2 By living according to your word.
+```
+*/
+pub struct QA;

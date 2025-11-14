@@ -1,0 +1,11 @@
+/**
+# `\em ...\\em\*`
+
+[Source](https://ubsicap.github.io/usfm/characters/index.html#em-em)
+
+- **Syntax**: `\em_text...\em*`
+- **Type**: `character`
+- **Added**: `2.0`
+- **Use**: Emphasis text.
+*/
+pub struct EM;
