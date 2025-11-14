@@ -1,5 +1,5 @@
 /**
-# `\rq ...\rq\*`
+# `\rq ...\rq*`
 
 [Source](https://ubsicap.github.io/usfm/titles_headings/index.html#rq-rq)
 

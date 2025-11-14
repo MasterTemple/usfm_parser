@@ -1,5 +1,5 @@
 /**
-# `\xop ...\xop\*`
+# `\xop ...\xop*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/xrefs.html#xop-xop)
 

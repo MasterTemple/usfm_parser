@@ -1,5 +1,5 @@
 /**
-# `\no ...\no\*`
+# `\no ...\no*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#no-no)
 

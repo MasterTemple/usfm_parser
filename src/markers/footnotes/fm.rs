@@ -1,5 +1,5 @@
 /**
-# `\fm ...\fm\*`
+# `\fm ...\fm*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/fnotes.html#fm-fm)
 

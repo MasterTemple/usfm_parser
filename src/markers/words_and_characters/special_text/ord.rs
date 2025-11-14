@@ -1,5 +1,5 @@
 /**
-# `\ord ...\ord\*`
+# `\ord ...\ord*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#ord-ord)
 

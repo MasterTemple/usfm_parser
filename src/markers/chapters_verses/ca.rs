@@ -1,5 +1,5 @@
 /**
-# `\ca ...\ca\*`
+# `\ca ...\ca*`
 
 [Source](https://ubsicap.github.io/usfm/chapters_verses/index.html#ca-ca)
 

@@ -1,5 +1,5 @@
 /**
-# `\bk ...\bk\*`
+# `\bk ...\bk*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#bk-bk)
 

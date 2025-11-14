@@ -1,5 +1,5 @@
 /**
-# `\liv# ...\liv#\*`
+# `\liv# ...\liv#*`
 
 [Source](https://ubsicap.github.io/usfm/lists/index.html#liv-liv)
 

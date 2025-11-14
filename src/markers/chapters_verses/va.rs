@@ -1,5 +1,5 @@
 /**
-# `\va ...\va\*`
+# `\va ...\va*`
 
 [Source](https://ubsicap.github.io/usfm/chapters_verses/index.html#va-va)
 

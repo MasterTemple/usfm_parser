@@ -9,7 +9,7 @@ Standard USFM `table` structures can be challenging to display on small page siz
 
 > Structured lists are not strictly a replacement for table markup, but may prove to be a more flexible option for some types of tabular content.
 
-Character marker pairs `\lik ...\lik\*` and `\liv# ...\liv#\*` mark the content of list entries (`\li`) which are essentially a key + value pair. A key may have multiple values.
+Character marker pairs `\lik ...\lik*` and `\liv# ...\liv#*` mark the content of list entries (`\li`) which are essentially a key + value pair. A key may have multiple values.
 */
 
 pub mod lik;

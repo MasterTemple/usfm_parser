@@ -1,5 +1,5 @@
 /**
-# `\fdc ...\fdc\*`
+# `\fdc ...\fdc*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/fnotes.html#fdc-fdc)
 
@@ -9,7 +9,7 @@
 - **Deprecated**: 3.0 :Use: Footnote Deuterocanonical content. \
     Text between these markers is material to be included only in published editions that contain the Deuterocanonical books. \
     **Deprecated** (use is discouraged). \ \
-    |ico_Cg| *Recommended alternate:* General purpose use of `\dc ...\dc\*` or `nested` `\+dc ...\+dc*` wherever DC-only content is being marked.
+    |ico_Cg| *Recommended alternate:* General purpose use of `\dc ...\dc*` or `nested` `\+dc ...\+dc*` wherever DC-only content is being marked.
 
 **Text and Formatting Sample** - Hebrews 1.3 (Spanish DHE)
 

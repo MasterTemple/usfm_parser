@@ -1,5 +1,5 @@
 /**
-# `\fig ...\fig\*`
+# `\fig ...\fig*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#fig-fig)
 

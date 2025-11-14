@@ -1,5 +1,5 @@
 /**
-# `\litl ...\litl\*`
+# `\litl ...\litl*`
 
 [Source](https://ubsicap.github.io/usfm/lists/index.html#litl-litl)
 

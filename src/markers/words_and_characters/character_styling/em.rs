@@ -1,5 +1,5 @@
 /**
-# `\em ...\em\*`
+# `\em ...\em*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#em-em)
 

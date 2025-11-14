@@ -1,5 +1,5 @@
 /**
-# `\pro ...\pro\*`
+# `\pro ...\pro*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#pro-pro)
 
@@ -9,7 +9,7 @@
 - **Deprecated**: 3.0  :Use: Pronunciation annotation. \
     *Used for CJK text.* \
     **Deprecated** (use is discouraged). \
-    *Recommended alternate:* `\rb ...\rb\*`.
+    *Recommended alternate:* `\rb ...\rb*`.
 */
 #[derive(crate::Marker!)]
 pub struct PRO;

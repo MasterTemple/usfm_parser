@@ -1,5 +1,5 @@
 /**
-# `\wj ...\wj\*`
+# `\wj ...\wj*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#wj-wj)
 

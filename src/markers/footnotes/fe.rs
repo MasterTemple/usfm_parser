@@ -1,5 +1,5 @@
 /**
-# `\fe ...\fe\*`
+# `\fe ...\fe*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/fnotes.html#fe-fe)
 

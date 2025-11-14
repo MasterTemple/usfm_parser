@@ -1,5 +1,5 @@
 /**
-# `\dc ...\dc\*`
+# `\dc ...\dc*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#dc-dc)
 
@@ -7,7 +7,7 @@
 - **Type**: `character`
 - **Added**: `1.0`
 - **Use**: Deuterocanonical/LXX additions or insertions in the Protocanonical text. \
-    General purpose use of `\dc ...\dc*` or `nested` `\+dc ...\+dc*` is encouraged wherever DC-only content is being marked. Use of context-specific DC-only markup (i.e. `\fdc ...\fdc\*`, `\xdc ...\xdc\*`) is discouraged.
+    General purpose use of `\dc ...\dc*` or `nested` `\+dc ...\+dc*` is encouraged wherever DC-only content is being marked. Use of context-specific DC-only markup (i.e. `\fdc ...\fdc*`, `\xdc ...\xdc*`) is discouraged.
 
 **Text and Formatting Samples** - Hebrews 1.3 (Spanish DHE - footnote)
 

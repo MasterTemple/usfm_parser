@@ -1,5 +1,5 @@
 /**
-# `\xdc ...\xdc\*`
+# `\xdc ...\xdc*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/xrefs.html#xdc-xdc)
 
@@ -8,7 +8,7 @@
 - **Added**: `1.0`
 - **Deprecated**: 3.0 :Use: References (or other text) between these markers is material to be included only in published editions that contain the Deuterocanonical books. \
     **Deprecated** (use is discouraged). \
-    *Recommended alternate:* General purpose use of `\dc ...\dc\*` or `nested` `\+dc ...\+dc*` wherever DC-only content is being marked.
+    *Recommended alternate:* General purpose use of `\dc ...\dc*` or `nested` `\+dc ...\+dc*` wherever DC-only content is being marked.
 
 **Text and Formatting Samples** - Psalm 115.3-4 (GNT - cross references)
 

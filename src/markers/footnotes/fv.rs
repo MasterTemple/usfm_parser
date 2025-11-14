@@ -1,5 +1,5 @@
 /**
-# `\fv ...\fv\*`
+# `\fv ...\fv*`
 
 [Source](https://ubsicap.github.io/usfm/notes_basic/fnotes.html#fv-fv)
 

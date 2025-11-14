@@ -1,5 +1,5 @@
 /**
-# `\iqt ...\iqt\*`
+# `\iqt ...\iqt*`
 
 [Source](https://ubsicap.github.io/usfm/introductions/index.html#iqt)
 

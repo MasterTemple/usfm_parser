@@ -1,5 +1,5 @@
 /**
-# `\vp ...\vp\*`
+# `\vp ...\vp*`
 
 [Source](https://ubsicap.github.io/usfm/chapters_verses/index.html#vp-vp)
 

@@ -1,5 +1,5 @@
 /**
-# `\nd ...\nd\*`
+# `\nd ...\nd*`
 
 [Source](https://ubsicap.github.io/usfm/characters/index.html#nd-nd)
 
