@@ -11,4 +11,5 @@
     Rows contain column `headings` or `cells`.
 
 */
+#[derive(crate::Marker!)]
 pub struct TR;

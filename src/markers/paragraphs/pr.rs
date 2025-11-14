@@ -25,4 +25,5 @@ worships it; the \nd Lord\nd* hates idolatry.’
 \pr “And all the people will answer, ‘Amen!’
 ```
 */
+#[derive(crate::Marker!)]
 pub struct PR;

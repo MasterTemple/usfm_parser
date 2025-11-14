@@ -21,4 +21,5 @@ was the mother of all human beings.
 and he clothed them.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct FK;

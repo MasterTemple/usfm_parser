@@ -21,4 +21,5 @@ exile, along with King Jehoiachin of Judah, when King Nebuchadnezzar of Babyloni
 Jerusalem. ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct CP;

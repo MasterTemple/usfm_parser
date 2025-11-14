@@ -8,4 +8,5 @@
 - **Added**: `1.0`
 - **Use**: Keyword / keyterm
 */
+#[derive(crate::Marker!)]
 pub struct K;

@@ -19,4 +19,5 @@
 sabachthani?”\tl* which means, “My God, my God, why did you abandon me?”
 ```
 */
+#[derive(crate::Marker!)]
 pub struct TL;

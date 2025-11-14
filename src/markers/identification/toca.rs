@@ -15,4 +15,5 @@
 - **Syntax**: `\toca3_text...`
 - **Use**: Alternative language book abbreviation.
 */
+#[derive(crate::Marker!)]
 pub struct TOCA;

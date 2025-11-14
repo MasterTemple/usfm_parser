@@ -23,4 +23,5 @@ of “The Thirty,” and he called out,
 \m David welcomed them and made them officers in his army.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QM;

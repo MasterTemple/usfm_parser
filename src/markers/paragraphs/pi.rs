@@ -28,4 +28,5 @@ The weed seeds are those who belong to the evil one,
 angels are the ones who bring in the harvest.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct PI;

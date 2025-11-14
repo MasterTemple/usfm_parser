@@ -20,4 +20,5 @@ what all future generations are to call me.
 ```
 
 */
+#[derive(crate::Marker!)]
 pub struct ND;

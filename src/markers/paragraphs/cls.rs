@@ -17,4 +17,5 @@
 \cls May God's grace be with you.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct CLS;

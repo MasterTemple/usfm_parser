@@ -25,4 +25,5 @@ we are writing.
 \v 28 The Holy Spirit has shown us that we should not place any extra burden on you...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct PM;

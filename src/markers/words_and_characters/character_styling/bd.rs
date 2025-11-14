@@ -8,4 +8,5 @@
 - **Added**: `1.0`
 - **Use**: Bold text.
 */
+#[derive(crate::Marker!)]
 pub struct BD;

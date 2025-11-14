@@ -22,4 +22,5 @@ baby by the Holy Spirit.
 Mary publicly; so he made plans to break the engagement privately.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct V;

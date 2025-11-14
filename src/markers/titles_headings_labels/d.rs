@@ -23,4 +23,5 @@
 \q2 “There is no help for you in God.” \qs Selah\qs*
 ```
 */
+#[derive(crate::Marker!)]
 pub struct D;

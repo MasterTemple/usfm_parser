@@ -8,4 +8,5 @@
 - **Added**: `3.0`
 - **Use**: Superscript text. Typically for use in critical edition footnotes.
 */
+#[derive(crate::Marker!)]
 pub struct SUP;

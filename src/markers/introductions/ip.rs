@@ -21,4 +21,5 @@ authority is seen in his teaching, in his power over demons, and in forgiving pe
 Jesus speaks of himself as the Son of Man, who came to give his life to set people free from sin.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IP;

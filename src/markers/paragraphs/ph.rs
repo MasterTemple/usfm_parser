@@ -12,4 +12,5 @@
     **Deprecated** (i.e. use is strongly discouraged). \
     *Recommended alternate:* `\\li#`
 */
+#[derive(crate::Marker!)]
 pub struct PH;

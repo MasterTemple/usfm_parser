@@ -26,4 +26,5 @@ him that David was hiding in their territory.
 \q2 listen to my words!
 ```
 */
+#[derive(crate::Marker!)]
 pub struct VA;

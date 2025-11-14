@@ -25,4 +25,5 @@ Matthew 4.1 (Nestle-Aland 29)
 \f ° \fr 4,1 \fw B Δ 700\f*
 ```
 */
+#[derive(crate::Marker!)]
 pub struct FW;

@@ -25,4 +25,5 @@
 \qr God's love never fails.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QR;

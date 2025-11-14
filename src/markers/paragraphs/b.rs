@@ -14,4 +14,5 @@
 
 > No text should follow this marker, and it should not be used before or after titles to indicate white-space.
 */
+#[derive(crate::Marker!)]
 pub struct B;

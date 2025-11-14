@@ -10,4 +10,5 @@
     The variable # represents the table column number. \ \
     |badge_3.0| Use a dash `-` between a range of column numbers to indicate that the columns should be spanned.
 */
+#[derive(crate::Marker!)]
 pub struct TC;

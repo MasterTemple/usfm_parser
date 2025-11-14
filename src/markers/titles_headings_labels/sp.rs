@@ -21,4 +21,5 @@
 \q2 put a curse on the night when I was conceived!
 ```
 */
+#[derive(crate::Marker!)]
 pub struct SP;

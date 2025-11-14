@@ -30,4 +30,5 @@ sat down and started teaching them.
 
 > **No-break markup within poetry:** Some translations have a publishing tradition of inserting a small amount of additional white-space at chapter boundaries. It is important in these texts to use the \nb marker within any specific poetic contexts where no visible break in the flow of the the text is intended at a particular chapter boundary.
 */
+#[derive(crate::Marker!)]
 pub struct NB;

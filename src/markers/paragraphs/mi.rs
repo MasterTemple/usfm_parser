@@ -29,4 +29,5 @@ a demon in him!”
 drinks too much! He is even a friend of tax collectors ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct MI;

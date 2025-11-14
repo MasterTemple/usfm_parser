@@ -30,4 +30,5 @@
 
 *Слава: = "Glory".*
 */
+#[derive(crate::Marker!)]
 pub struct LIT;

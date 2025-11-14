@@ -32,4 +32,5 @@ Matthew (Spanish DHH)
 \toc3 Mt
 ```
 */
+#[derive(crate::Marker!)]
 pub struct TOC;

@@ -11,4 +11,5 @@
 - **Use**: Introduction quoted text. \
     Scripture quotations, or other quoted text, appearing in the introduction.
 */
+#[derive(crate::Marker!)]
 pub struct IQT;

@@ -34,4 +34,5 @@
 \q1 hoy son tus enemigos.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QAC;

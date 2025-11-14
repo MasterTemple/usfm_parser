@@ -25,4 +25,5 @@ manuscripts do not have \fq the Son of God.\f*
 ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct FQ;

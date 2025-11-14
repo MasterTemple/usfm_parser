@@ -54,4 +54,5 @@ Habakkuk 3.1 (GNT)
 \q2 and I am filled with awe.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct B;

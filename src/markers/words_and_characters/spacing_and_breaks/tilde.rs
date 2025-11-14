@@ -9,4 +9,5 @@
 - **Use**: No-break space. \
     *c.f.* Unicode character U+00AO (NO-BREAK SPACE)
 */
+#[derive(crate::Marker!)]
 pub struct Tilde;

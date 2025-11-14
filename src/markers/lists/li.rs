@@ -27,4 +27,5 @@ go with them, for the burnt offerings
 offerings
 ```
 */
+#[derive(crate::Marker!)]
 pub struct LI;

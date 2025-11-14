@@ -24,4 +24,5 @@ d'Elam,\sls*
 ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct SLS;

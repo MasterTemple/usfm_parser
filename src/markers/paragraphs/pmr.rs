@@ -8,4 +8,5 @@
 - **Added**: `2.0`
 - **Use**:     Embedded text refrain.
 */
+#[derive(crate::Marker!)]
 pub struct PMR;

@@ -8,4 +8,5 @@
 - **Added**: `1.0`
 - **Use**: Beginning and ending of the endnote element.
 */
+#[derive(crate::Marker!)]
 pub struct FE;

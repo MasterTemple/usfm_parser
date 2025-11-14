@@ -9,4 +9,5 @@
 - **Use**: A quotation from the scripture text. \
     Use of a quotation would be intended to help the reader to understand the portion of text (or concept) for which the `target reference(s)` are being supplied. \
 */
+#[derive(crate::Marker!)]
 pub struct XQ;

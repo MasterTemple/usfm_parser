@@ -22,4 +22,5 @@
 \qd For the director of music. On my stringed instruments.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QD;

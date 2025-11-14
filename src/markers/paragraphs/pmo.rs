@@ -23,4 +23,5 @@ followers of the Lord in Antioch, Syria, and Cilicia.
 But we did not send them!
 ```
 */
+#[derive(crate::Marker!)]
 pub struct PMO;

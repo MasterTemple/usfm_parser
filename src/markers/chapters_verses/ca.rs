@@ -27,4 +27,5 @@ that David was hiding in their territory.
 ```
 
 */
+#[derive(crate::Marker!)]
 pub struct CA;

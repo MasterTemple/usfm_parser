@@ -16,4 +16,5 @@
 \iex Written to the Romans from Corinthus, and sent by Phebe servant of the church at Cenchrea.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IEX;

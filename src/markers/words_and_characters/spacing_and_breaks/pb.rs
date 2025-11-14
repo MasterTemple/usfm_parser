@@ -8,4 +8,5 @@
 - **Added**: `1.0`
 - **Use**: Explicit page break.
 */
+#[derive(crate::Marker!)]
 pub struct PB;

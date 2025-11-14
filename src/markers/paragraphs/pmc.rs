@@ -19,4 +19,5 @@ not commit any terrible sexual sins. If you follow these instructions, you will 
 \pmc We send our best wishes.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct PMC;

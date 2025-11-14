@@ -18,4 +18,5 @@
 
 The text following this marker is not normally used in any formatted presentation.
 */
+#[derive(crate::Marker!)]
 pub struct STS;

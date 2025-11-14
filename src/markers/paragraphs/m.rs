@@ -26,4 +26,5 @@ of the Law say that the Messiah will be the descendant of David?
 \v 37 David himself called him ‘Lord’; so how can the Messiah be David's descendant?”
 ```
 */
+#[derive(crate::Marker!)]
 pub struct M;

@@ -11,4 +11,5 @@
     **Deprecated** (use is discouraged). \
     *Recommended alternate:* `\\rb ...\\rb\*`.
 */
+#[derive(crate::Marker!)]
 pub struct PRO;

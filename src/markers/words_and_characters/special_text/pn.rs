@@ -8,4 +8,5 @@
 - **Added**: `1.0`
 - **Use**: Proper name.
 */
+#[derive(crate::Marker!)]
 pub struct PN;

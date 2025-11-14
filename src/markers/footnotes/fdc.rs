@@ -23,4 +23,5 @@ derecha del trono de Dios,
 mucho más importante que el de ellos.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct FDC;

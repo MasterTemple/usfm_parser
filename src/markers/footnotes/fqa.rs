@@ -9,4 +9,5 @@
 - **Use**: Footnote alternate translation. \
     Used to distinguish between a quotation of the current scripture text translation, and an alternate translation.
 */
+#[derive(crate::Marker!)]
 pub struct FQA;

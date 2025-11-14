@@ -8,4 +8,5 @@
 - **Added**: `1.0`
 - **Use**: Hebrew word list entry.
 */
+#[derive(crate::Marker!)]
 pub struct WH;

@@ -8,4 +8,5 @@
 - **Added**: `3.0`
 - **Use**: Aramaic word list entry.
 */
+#[derive(crate::Marker!)]
 pub struct WA;

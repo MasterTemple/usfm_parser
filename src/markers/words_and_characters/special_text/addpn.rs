@@ -10,4 +10,5 @@
     **Deprecated** (use is discouraged). \
     *Recommended alternate:* `Nested` `\\pn ...\\pn\*` within `\\add ...\\add\*`.
 */
+#[derive(crate::Marker!)]
 pub struct ADDPN;

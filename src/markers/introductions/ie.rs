@@ -22,4 +22,5 @@
 \v 1 This is the Good News about Jesus Christ
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IE;

@@ -17,4 +17,5 @@
 наших при \add возделывании\add* земли, которую проклял Господь.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct ADD;

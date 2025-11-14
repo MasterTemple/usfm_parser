@@ -24,4 +24,5 @@
 \v 20 This is the end of the prayers of David son of Jesse.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QC;

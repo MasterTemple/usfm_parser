@@ -22,4 +22,5 @@
 igualmente en \bk Mateo\bk* y \bk Lucas\bk*.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IS;

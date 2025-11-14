@@ -20,4 +20,5 @@
 \v 17 Listen, and I will teach you what the wise have said. Study their teachings, ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct SR;

@@ -20,4 +20,5 @@
 \io1 The appearances and ascension of the risen Lord \ior (16.9-20)\ior*
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IOR;

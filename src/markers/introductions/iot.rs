@@ -27,4 +27,5 @@ as written by someone other than the author of \bk Mark\bk*
 \v 1 This is the Good News about Jesus Christ
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IOT;

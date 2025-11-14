@@ -10,4 +10,5 @@
      This is the chapter and verse(s) that `target reference(s)` are being provided for. \
      `SEP` indicates where the appropriate chapter/verse separator should be used (i.e. colon ":", full stop "." etc.)
 */
+#[derive(crate::Marker!)]
 pub struct XO;

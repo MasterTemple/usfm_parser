@@ -25,4 +25,5 @@
 \ipr (3.4,5a)
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IQ;

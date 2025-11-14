@@ -43,4 +43,5 @@ Mark 1.2-3 (GNT)
 \q2 \qt make a straight path for him to travel!’ ”\qt*
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QT;

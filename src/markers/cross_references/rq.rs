@@ -9,4 +9,5 @@
 - **Use**: Inline quotation reference(s). \
     See details and examples in `Titles, Heading, and Labels`
 */
+#[derive(crate::Marker!)]
 pub struct RQ;

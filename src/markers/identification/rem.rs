@@ -21,4 +21,5 @@ The text following this marker is not normally used in any formatted presentatio
 
 > Adding names of individuals, initials, or other personal information directly within scripture text files is *strongly discouraged*.
 */
+#[derive(crate::Marker!)]
 pub struct REM;

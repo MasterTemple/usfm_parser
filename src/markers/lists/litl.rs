@@ -38,4 +38,5 @@ Bilshan, Mispereth, Bigvai, Nehum and Baanah):
 ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct LITL;

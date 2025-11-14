@@ -33,4 +33,5 @@ You know the commandments: ‘Do not commit murder; do not commit adultery; do n
 do not accuse anyone falsely; do not cheat; respect your father and your mother.’”
 ```
 */
+#[derive(crate::Marker!)]
 pub struct XT;

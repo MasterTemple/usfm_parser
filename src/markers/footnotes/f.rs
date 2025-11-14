@@ -28,4 +28,5 @@
 
 > Notes which are intended as "Endnotes" should be marked using the following alternative format:
 */
+#[derive(crate::Marker!)]
 pub struct F;

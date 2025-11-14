@@ -35,4 +35,5 @@
 \q1 Be merciful, even when you are angry.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct Q;

@@ -22,4 +22,5 @@
 от всех дел Своих, которые делал.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct CD;

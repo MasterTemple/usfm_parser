@@ -17,4 +17,5 @@
 \imte End of the Introduction to the Gospel of Mark
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IMTE;

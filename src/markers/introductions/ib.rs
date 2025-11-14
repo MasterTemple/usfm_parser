@@ -21,4 +21,5 @@ care of you and lead you out of Egypt to the land he promised Abraham, Isaac, an
 
 *See also* `\\ipq`, `\\imq` examples (above).
 */
+#[derive(crate::Marker!)]
 pub struct IB;

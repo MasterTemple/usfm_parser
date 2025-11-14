@@ -31,4 +31,5 @@
 \lf This was the list of the administrators of the tribes of Israel.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct LH;

@@ -22,4 +22,5 @@ Version\bk* of the Bible...
 ```
 
 */
+#[derive(crate::Marker!)]
 pub struct IM;

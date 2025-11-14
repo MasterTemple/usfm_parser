@@ -6,4 +6,5 @@
 - **Added**: `3.0`
 - **Use**: List entry "key" content.
 */
+#[derive(crate::Marker!)]
 pub struct LIK;

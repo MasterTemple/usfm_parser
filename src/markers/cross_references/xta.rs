@@ -19,4 +19,5 @@ Lk 3.1-18; \xta and \xt Jn 1.19-28 \xta parallel passages.\x*
 \v 1 At that time John the Baptist came to the desert of Judea and started preaching.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct XTA;

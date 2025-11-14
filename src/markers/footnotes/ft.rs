@@ -9,4 +9,5 @@
 - **Use**: Footnote text. \
     The essential (explanatory) text of the footnote.
 */
+#[derive(crate::Marker!)]
 pub struct FT;

@@ -8,4 +8,5 @@
 - **Added**: `1.0`
 - **Use**: A keyword from the scripture translation text which the `target reference(s)` also refer to.
 */
+#[derive(crate::Marker!)]
 pub struct XK;

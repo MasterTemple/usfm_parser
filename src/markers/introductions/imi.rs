@@ -21,4 +21,5 @@ Reader,” King James Version, 1611).
 Version\bk* of the Bible...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct IMI;

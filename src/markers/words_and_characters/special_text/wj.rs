@@ -8,4 +8,5 @@
 - **Added**: `2.0`
 - **Use**: Words of Jesus.
 */
+#[derive(crate::Marker!)]
 pub struct WJ;

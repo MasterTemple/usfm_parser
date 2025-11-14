@@ -33,4 +33,5 @@ Psalm 24.10 (NRSV)
 \q2 he is the King of glory. \qs Selah\qs*
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QS;

@@ -20,4 +20,5 @@
 \v 2 “Turn away from your sins,” he said, ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct R;

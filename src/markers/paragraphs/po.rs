@@ -31,4 +31,5 @@ people:
 \po May God our Father and the Lord Jesus Christ give you grace and peace.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct PO;

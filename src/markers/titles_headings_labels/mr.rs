@@ -21,4 +21,5 @@
 \q2 who reject the advice of evil people,
 ```
 */
+#[derive(crate::Marker!)]
 pub struct MR;

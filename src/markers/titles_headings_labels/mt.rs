@@ -35,4 +35,5 @@ Introduction to John (GNT)
 \is Introduction
 ```
 */
+#[derive(crate::Marker!)]
 pub struct MT;

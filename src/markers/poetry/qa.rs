@@ -23,4 +23,5 @@
 \q2 By living according to your word.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct QA;

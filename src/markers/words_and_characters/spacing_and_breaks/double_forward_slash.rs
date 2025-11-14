@@ -17,4 +17,5 @@
 \r (Mark 2.1-12; Luke 5.17-26)
 ```
 */
+#[derive(crate::Marker!)]
 pub struct DoubleForwardSlash;

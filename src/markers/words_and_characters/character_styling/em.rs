@@ -8,4 +8,5 @@
 - **Added**: `2.0`
 - **Use**: Emphasis text.
 */
+#[derive(crate::Marker!)]
 pub struct EM;

@@ -16,4 +16,5 @@
 \usfm 3.0
 ```
 */
+#[derive(crate::Marker!)]
 pub struct USFM;

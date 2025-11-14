@@ -35,4 +35,5 @@ Daniel 1.1 (GNT)
 attacked Jerusalem and surrounded the city.
 ```
 */
+#[derive(crate::Marker!)]
 pub struct MS;

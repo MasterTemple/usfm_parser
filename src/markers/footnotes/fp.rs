@@ -9,4 +9,5 @@
 - **Use**: Footnote additional paragraph. \
     Use this marker to if you need to indicate the start of a new paragraph within a footnote (uncommon).
 */
+#[derive(crate::Marker!)]
 pub struct FP;

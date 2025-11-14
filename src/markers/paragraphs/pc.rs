@@ -22,4 +22,5 @@ and nasty things she had done.
 their lives for Jesus. This surprising sight amazed me, ...
 ```
 */
+#[derive(crate::Marker!)]
 pub struct PC;
