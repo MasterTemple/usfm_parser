@@ -22,6 +22,29 @@ impl<'a> MarkerComponents<'a> {
     pub fn has_asterisk(&self) -> bool {
         self.has_asterisk
     }
+
+    pub fn parameters(&self) -> MarkerParameters {
+        MarkerParameters::new(self.digits, self.has_asterisk)
+    }
+}
+
+#[derive(Clone, Copy, Debug)]
+pub struct MarkerParameters {
+    pub digits: Option<u8>,
+    pub has_asterisk: bool,
+}
+
+impl MarkerParameters {
+    pub fn new(digits: Option<u8>, has_asterisk: bool) -> Self {
+        Self {
+            digits,
+            has_asterisk,
+        }
+    }
+}
+
+pub trait FromMarkerParameters {
+    fn from_parameters(params: MarkerParameters) -> Self;
 }
 
 impl<'a> MarkerComponents<'a> {

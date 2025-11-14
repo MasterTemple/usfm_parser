@@ -8,8 +8,10 @@ use crate::markers::markers::any::AnyMarker;
 
 pub struct Node<'a> {
     tag: AnyMarker,
+    // perhaps there should be a text node, and not a dedicated field
     content: Option<&'a str>,
-    child: Box<Node<'a>>,
+    // child: Box<Node<'a>>,
+    children: Vec<Node<'a>>,
 }
 
 pub struct Document<'a> {

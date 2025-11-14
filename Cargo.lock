@@ -318,6 +318,7 @@ dependencies = [
  "enum_dispatch",
  "from_nested_tuple",
  "macro_rules_attribute",
+ "once_cell",
  "strum",
 ]
 
