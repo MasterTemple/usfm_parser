@@ -1,7 +1,6 @@
-use std::convert::TryFrom;
 use strum::{AsRefStr, EnumIter, EnumString};
 
-#[derive(Clone, Copy, Debug, EnumString, AsRefStr)]
+#[derive(Clone, Copy, Debug, AsRefStr, EnumIter, EnumString)]
 pub enum BibleIdentifier {
     /// 01
     /// GEN

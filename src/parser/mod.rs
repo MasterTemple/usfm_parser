@@ -1,7 +1,9 @@
 use chumsky::prelude::*;
-use chumsky::text::{Char, inline_whitespace, newline, whitespace};
+use chumsky::text::{Char, digits, inline_whitespace, newline, whitespace};
 use chumsky::{Parser, error::Rich, extra::Err, prelude::just, text};
+use from_nested_tuple::FromTuple;
 
+// use crate::markers::markers::MarkerParsing;
 use crate::markers::markers::any::AnyMarker;
 
 pub struct Node<'a> {
@@ -10,7 +12,25 @@ pub struct Node<'a> {
     child: Box<Node<'a>>,
 }
 
+pub struct Document<'a> {
+    content: String, // could be Cow<> or Rc<>
+    nodes: Vec<Node<'a>>,
+}
+
 const BACKSLASH: char = '\\';
+
+// fn marker<'a>() -> impl Parser<'a, &'a str, MarkerParsing<'a>> {
+//     just(BACKSLASH)
+//         .ignore_then(text::ident().to_slice())
+//         .then(
+//             digits(10)
+//                 .to_slice()
+//                 .map(|n: &'a str| n.parse::<u8>().unwrap())
+//                 .or_not(),
+//         )
+//         .then(just('*').or_not().map(|e| e.is_some()))
+//         .map(FromTuple::from_tuple)
+// }
 
 // /// `\? .*`
 // // fn leading<'a>() -> impl Parser<'a, &'a str, (&'a str, &'a str), Err<Rich<'a, char>>> {

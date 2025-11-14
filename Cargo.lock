@@ -102,6 +102,24 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d9c4f5dac5e15c24eb999c26181a6ca40b39fe946cbe4c263c7209467bc83af2"
 
 [[package]]
+name = "from_nested_tuple"
+version = "0.1.0"
+source = "git+https://github.com/MasterTemple/from_nested_tuple.git#dafe6a68cc2ca294cead03ff6cd4f97e788ff7fb"
+dependencies = [
+ "from_nested_tuple_derive",
+]
+
+[[package]]
+name = "from_nested_tuple_derive"
+version = "0.1.0"
+source = "git+https://github.com/MasterTemple/from_nested_tuple.git#dafe6a68cc2ca294cead03ff6cd4f97e788ff7fb"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.15.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -298,6 +316,7 @@ dependencies = [
  "chumsky",
  "derive_more",
  "enum_dispatch",
+ "from_nested_tuple",
  "macro_rules_attribute",
  "strum",
 ]
