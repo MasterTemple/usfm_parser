@@ -14,4 +14,6 @@ pub mod tables;
 pub mod titles_headings_labels;
 pub mod words_and_characters;
 
+pub mod markers;
+
 // replace \\abc with `\abc`
