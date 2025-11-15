@@ -148,6 +148,8 @@ pub enum AnyMarker {
 }
 
 impl AnyMarker {
+    // TODO: this should hold a struct that is a little wider that has: MarkerComponents, tilde,
+    // double slash, or text
     pub fn new(component: MarkerComponents) -> Result<Self, String> {
         Ok(match TAG_MAP.get(component.marker()) {
             Some(func) => func(component.parameters()),

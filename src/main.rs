@@ -5,6 +5,7 @@ pub(crate) use derive_aliases::*;
 
 pub mod book_identifiers;
 pub mod categories;
+pub mod document;
 pub mod markers;
 pub mod parser;
 
