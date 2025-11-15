@@ -1,4 +1,4 @@
-use crate::markers::markers::tag::Tag;
+use crate::markers::markers::{any::AnyMarker, tag::Tag};
 
 #[derive(Clone, Copy, Debug)]
 pub struct MarkerParameters {
@@ -16,6 +16,7 @@ impl MarkerParameters {
 }
 
 #[enum_dispatch::enum_dispatch]
-pub trait FromMarkerParameters: Tag {
+pub trait FromMarkerParameters: Tag // + Into<AnyMarker>
+{
     fn from_parameters(params: MarkerParameters) -> Self;
 }

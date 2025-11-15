@@ -1,3 +1,5 @@
+use crate::markers::markers::{parser::MarkerComponents, tag::TAG_MAP};
+
 use super::all::*;
 use enum_dispatch::enum_dispatch;
 
@@ -143,4 +145,13 @@ pub enum AnyMarker {
     XQ,
     XT,
     XTA,
+}
+
+impl AnyMarker {
+    pub fn new(component: MarkerComponents) -> Result<Self, String> {
+        Ok(match TAG_MAP.get(component.marker()) {
+            Some(func) => func(component.parameters()),
+            None => Err(component.marker())?,
+        })
+    }
 }

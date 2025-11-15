@@ -15,6 +15,13 @@ pub enum NodeType {
 // TODO:
 // - There should be a text node (which isn't denoted by a blackslash)
 // - There is `~` and `//`, which have no content; so I should probably have
+//
+/*
+Recursion:
+- https://docs.rs/chumsky/latest/chumsky/recursive/fn.recursive.html
+- https://github.com/zesterer/chumsky/blob/main/examples/nested.rs
+- https://github.com/zesterer/chumsky/blob/main/examples/json.rs
+*/
 pub struct Node<'a> {
     tag: AnyMarker,
     // perhaps there should be a text node, and not a dedicated field

@@ -34,4 +34,25 @@
 */
 // TODO: Make this work
 #[derive(crate::Marker!)]
-pub struct LIV;
+pub struct LIV {
+    weight: Option<u8>,
+    open: bool,
+}
+
+use crate::markers::markers::{
+    parameters::{FromMarkerParameters, MarkerParameters},
+    tag::Tag,
+};
+
+impl Tag for LIV {
+    const TAG: &'static str = "liv";
+}
+
+impl FromMarkerParameters for LIV {
+    fn from_parameters(params: MarkerParameters) -> Self {
+        Self {
+            weight: params.digits,
+            open: params.has_asterisk,
+        }
+    }
+}
