@@ -27,6 +27,6 @@ I have decided to make every part of my kingdom peaceful and safe for travel.
 ```
 
 */
-#[derive(crate::Marker!)]
-pub struct VP;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct VP(bool);
 crate::impl_paired_tag!(VP, "vp");

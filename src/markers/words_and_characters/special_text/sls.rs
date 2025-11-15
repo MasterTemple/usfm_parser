@@ -24,6 +24,6 @@ d'Elam,\sls*
 ...
 ```
 */
-#[derive(crate::Marker!)]
-pub struct SLS;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct SLS(bool);
 crate::impl_paired_tag!(SLS, "sls");

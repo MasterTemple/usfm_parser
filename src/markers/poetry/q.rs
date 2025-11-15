@@ -35,6 +35,6 @@
 \q1 Be merciful, even when you are angry.
 ```
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct Q(Option<u8>);
 crate::impl_weighted_tag!(Q, "q");

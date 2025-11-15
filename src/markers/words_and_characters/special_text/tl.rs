@@ -19,6 +19,6 @@
 sabachthani?”\tl* which means, “My God, my God, why did you abandon me?”
 ```
 */
-#[derive(crate::Marker!)]
-pub struct TL;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct TL(bool);
 crate::impl_paired_tag!(TL, "tl");

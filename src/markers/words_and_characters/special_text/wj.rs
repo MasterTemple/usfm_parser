@@ -8,6 +8,6 @@
 - **Added**: `2.0`
 - **Use**: Words of Jesus.
 */
-#[derive(crate::Marker!)]
-pub struct WJ;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct WJ(bool);
 crate::impl_paired_tag!(WJ, "wj");

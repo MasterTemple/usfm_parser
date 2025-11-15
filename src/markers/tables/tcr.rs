@@ -28,6 +28,6 @@ their groups, under their leaders, as follows:
 > **Empty table cells:**
 > An empty table cell still requires a corresponding marker in the table text. Alternatively, indicate that a cell spans multiple columns by indicating a column range `\tr \tcr1-2 Total: \tcr3 151,450`.
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct TCR(Option<u8>);
 crate::impl_weighted_tag!(TCR, "tcr");

@@ -29,6 +29,6 @@ out, you will bring back the right answer.
 those who stand helpless in court.
 ```
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct S(Option<u8>);
 crate::impl_weighted_tag!(S, "s");

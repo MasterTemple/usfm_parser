@@ -9,6 +9,6 @@
 - **Use**: Normal text. \
     May be used when a larger paragraph element is set in an alternate font style (e.g. italic), and a selected section of text should be displayed in normal text.
 */
-#[derive(crate::Marker!)]
-pub struct NO;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct NO(bool);
 crate::impl_paired_tag!(NO, "no");

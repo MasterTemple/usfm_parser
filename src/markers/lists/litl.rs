@@ -38,6 +38,6 @@ Bilshan, Mispereth, Bigvai, Nehum and Baanah):
 ...
 ```
 */
-#[derive(crate::Marker!)]
-pub struct LITL;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct LITL(bool);
 crate::impl_paired_tag!(LITL, "litl");

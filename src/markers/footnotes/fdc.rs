@@ -23,6 +23,6 @@ derecha del trono de Dios,
 mucho más importante que el de ellos.
 ```
 */
-#[derive(crate::Marker!)]
-pub struct FDC;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct FDC(bool);
 crate::impl_paired_tag!(FDC, "fdc");

@@ -23,6 +23,6 @@
 igualmente en \bk Mateo\bk* y \bk Lucas.\bk*
 ```
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct IMT(Option<u8>);
 crate::impl_weighted_tag!(IMT, "imt");

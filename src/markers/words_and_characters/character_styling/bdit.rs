@@ -8,6 +8,6 @@
 - **Added**: `1.0`
 - **Use**: Bold-italic text.
 */
-#[derive(crate::Marker!)]
-pub struct BDIT;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct BDIT(bool);
 crate::impl_paired_tag!(BDIT, "bdit");

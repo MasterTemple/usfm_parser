@@ -17,6 +17,6 @@
 \imte End of the Introduction to the Gospel of Mark
 ```
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct IMTE(Option<u8>);
 crate::impl_weighted_tag!(IMTE, "imte");

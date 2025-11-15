@@ -8,6 +8,6 @@
 - **Added**: `1.0`
 - **Use**: Beginning and ending of the endnote element.
 */
-#[derive(crate::Marker!)]
-pub struct FE;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct FE(bool);
 crate::impl_paired_tag!(FE, "fe");

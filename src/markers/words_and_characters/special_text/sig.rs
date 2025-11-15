@@ -17,6 +17,6 @@ my chains!
 \cls May God's grace be with you.
 ```
 */
-#[derive(crate::Marker!)]
-pub struct SIG;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct SIG(bool);
 crate::impl_paired_tag!(SIG, "sig");

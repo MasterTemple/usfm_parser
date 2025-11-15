@@ -13,6 +13,6 @@
 
 > Because the nature of this marker is related directly to the published form of the text, it is not intended for use in scripture authoring. It may be used during the publishing process to connect two callers to the same footnote text.
 */
-#[derive(crate::Marker!)]
-pub struct FM;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct FM(bool);
 crate::impl_paired_tag!(FM, "fm");

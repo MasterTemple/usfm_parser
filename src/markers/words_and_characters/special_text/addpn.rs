@@ -10,6 +10,6 @@
     **Deprecated** (use is discouraged). \
     *Recommended alternate:* `Nested` `\pn ...\pn*` within `\add ...\add*`.
 */
-#[derive(crate::Marker!)]
-pub struct ADDPN;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct ADDPN(bool);
 crate::impl_paired_tag!(ADDPN, "addpn");

@@ -25,6 +25,6 @@
 \ipr (3.4,5a)
 ```
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct IQ(Option<u8>);
 crate::impl_weighted_tag!(IQ, "iq");

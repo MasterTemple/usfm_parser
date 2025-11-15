@@ -9,6 +9,6 @@
 - **Use**: Subject index entry. \
     Surround word(s) with this markup to indicate that it appears (or should appear) in the subject index.
 */
-#[derive(crate::Marker!)]
-pub struct NDX;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct NDX(bool);
 crate::impl_paired_tag!(NDX, "ndx");

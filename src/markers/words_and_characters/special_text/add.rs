@@ -17,6 +17,6 @@
 наших при \add возделывании\add* земли, которую проклял Господь.
 ```
 */
-#[derive(crate::Marker!)]
-pub struct ADD;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct ADD(bool);
 crate::impl_paired_tag!(ADD, "add");

@@ -8,6 +8,6 @@
 - **Added**: `1.0`
 - **Use**: Greek word list entry.
 */
-#[derive(crate::Marker!)]
-pub struct WG;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct WG(bool);
 crate::impl_paired_tag!(WG, "wg");

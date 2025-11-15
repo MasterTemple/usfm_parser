@@ -19,6 +19,6 @@
 \mte1 John
 ```
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct MTE(Option<u8>);
 crate::impl_weighted_tag!(MTE, "mte");

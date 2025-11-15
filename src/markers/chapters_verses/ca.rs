@@ -27,6 +27,6 @@ that David was hiding in their territory.
 ```
 
 */
-#[derive(crate::Marker!)]
-pub struct CA;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct CA(bool);
 crate::impl_paired_tag!(CA, "ca");

@@ -8,6 +8,6 @@
 - **Added**: `2.2`
 - **Use**: References (or other text) between these markers is material to be included only in published editions that contain the Old Testament books. *(optional)*
 */
-#[derive(crate::Marker!)]
-pub struct XOT;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct XOT(bool);
 crate::impl_paired_tag!(XOT, "xot");

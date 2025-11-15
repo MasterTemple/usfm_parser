@@ -8,6 +8,6 @@
 - **Added**: `1.0`
 - **Use**: Italic text.
 */
-#[derive(crate::Marker!)]
-pub struct IT;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct IT(bool);
 crate::impl_paired_tag!(IT, "it");

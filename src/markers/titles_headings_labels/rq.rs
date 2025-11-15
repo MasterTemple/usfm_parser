@@ -29,6 +29,6 @@ than theirs.
 \rq 2Sa 7.14; 1Ch 17.13\rq*
 ```
 */
-#[derive(crate::Marker!)]
-pub struct RQ;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct RQ(bool);
 crate::impl_paired_tag!(RQ, "rq");

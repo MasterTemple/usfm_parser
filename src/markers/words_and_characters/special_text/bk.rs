@@ -20,6 +20,6 @@ Spirit, spread the Good News about him “in Jerusalem, in all of Judea and Sama
 and to the ends of the earth” (1.8).
 ```
 */
-#[derive(crate::Marker!)]
-pub struct BK;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct BK(bool);
 crate::impl_paired_tag!(BK, "bk");

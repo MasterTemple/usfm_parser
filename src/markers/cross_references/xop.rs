@@ -27,6 +27,6 @@
 олекне от него; а Иона бе слязъл в дъното на кораба, бе легнал и дълбоко заспал.
 ```
 */
-#[derive(crate::Marker!)]
-pub struct XOP;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct XOP(bool);
 crate::impl_paired_tag!(XOP, "xop");

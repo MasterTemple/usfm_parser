@@ -8,6 +8,6 @@
 - **Added**: `2.0`
 - **Use**: Emphasis text.
 */
-#[derive(crate::Marker!)]
-pub struct EM;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct EM(bool);
 crate::impl_paired_tag!(EM, "em");

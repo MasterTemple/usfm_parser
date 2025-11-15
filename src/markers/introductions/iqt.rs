@@ -11,6 +11,6 @@
 - **Use**: Introduction quoted text. \
     Scripture quotations, or other quoted text, appearing in the introduction.
 */
-#[derive(crate::Marker!)]
-pub struct IQT;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct IQT(bool);
 crate::impl_paired_tag!(IQT, "iqt");

@@ -15,6 +15,6 @@
 - **Syntax**: `\toca3_text...`
 - **Use**: Alternative language book abbreviation.
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct TOCA(Option<u8>);
 crate::impl_weighted_tag!(TOCA, "toca");

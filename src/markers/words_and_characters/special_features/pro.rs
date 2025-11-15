@@ -11,6 +11,6 @@
     **Deprecated** (use is discouraged). \
     *Recommended alternate:* `\rb ...\rb*`.
 */
-#[derive(crate::Marker!)]
-pub struct PRO;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct PRO(bool);
 crate::impl_paired_tag!(PRO, "pro");

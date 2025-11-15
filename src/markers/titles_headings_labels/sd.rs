@@ -29,6 +29,6 @@ treasures as well as old.”
 were amazed. “Where did this man get this wisdom and these miraculous powers?” they asked.
 ```
 */
-#[derive(crate::Marker!, crate::Weighted!)]
+#[derive(crate::Marker!, crate::Deref!)]
 pub struct SD(Option<u8>);
 crate::impl_weighted_tag!(SD, "sd");

@@ -8,6 +8,6 @@
 - **Added**: `1.0`
 - **Use**: Small-cap text.
 */
-#[derive(crate::Marker!)]
-pub struct SC;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct SC(bool);
 crate::impl_paired_tag!(SC, "sc");

@@ -34,6 +34,6 @@
 \q1 hoy son tus enemigos.
 ```
 */
-#[derive(crate::Marker!)]
-pub struct QAC;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct QAC(bool);
 crate::impl_paired_tag!(QAC, "qac");

@@ -3,6 +3,8 @@ use chumsky::text::{Char, digits, inline_whitespace, newline, whitespace};
 use chumsky::{Parser, error::Rich, extra::Err, prelude::just, text};
 use from_nested_tuple::FromTuple;
 
+use crate::markers::markers::parameters::MarkerParameters;
+
 #[derive(Clone, Debug, from_nested_tuple::FromTuple)]
 pub struct MarkerComponents<'a> {
     marker: &'a str,
@@ -26,25 +28,6 @@ impl<'a> MarkerComponents<'a> {
     pub fn parameters(&self) -> MarkerParameters {
         MarkerParameters::new(self.digits, self.has_asterisk)
     }
-}
-
-#[derive(Clone, Copy, Debug)]
-pub struct MarkerParameters {
-    pub digits: Option<u8>,
-    pub has_asterisk: bool,
-}
-
-impl MarkerParameters {
-    pub fn new(digits: Option<u8>, has_asterisk: bool) -> Self {
-        Self {
-            digits,
-            has_asterisk,
-        }
-    }
-}
-
-pub trait FromMarkerParameters {
-    fn from_parameters(params: MarkerParameters) -> Self;
 }
 
 impl<'a> MarkerComponents<'a> {

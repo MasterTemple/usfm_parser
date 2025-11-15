@@ -18,6 +18,6 @@
 
     **Ruby glosses:** In order to help these readers, some Bibles are printed with glosses using small phonetic characters (e.g. Japanese uses the hiragana alphabet) placed above the more symbolic Han characters to tell the reader how to pronounce the character. These phonetic characters are generically called "ruby glosses" or "rubies". In Japanese this technique is called Furigana.
 */
-#[derive(crate::Marker!)]
-pub struct RB;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct RB(bool);
 crate::impl_paired_tag!(RB, "rb");

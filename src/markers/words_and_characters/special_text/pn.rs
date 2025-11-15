@@ -8,6 +8,6 @@
 - **Added**: `1.0`
 - **Use**: Proper name.
 */
-#[derive(crate::Marker!)]
-pub struct PN;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct PN(bool);
 crate::impl_paired_tag!(PN, "pn");

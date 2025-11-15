@@ -32,6 +32,6 @@ in an instant, as quickly as the blinking of an eye. For when the trumpet sounds
 dead will be raised, never to die again, and we shall all be changed.
 ```
 */
-#[derive(crate::Marker!)]
-pub struct XDC;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct XDC(bool);
 crate::impl_paired_tag!(XDC, "xdc");

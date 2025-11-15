@@ -8,6 +8,6 @@
 - **Added**: `1.0`
 - **Use**: Hebrew word list entry.
 */
-#[derive(crate::Marker!)]
-pub struct WH;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct WH(bool);
 crate::impl_paired_tag!(WH, "wh");

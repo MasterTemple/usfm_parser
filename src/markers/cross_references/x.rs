@@ -24,6 +24,6 @@
 
 > **Important:** See `Syntax Notes` for addition information on the use of `endmarkers` for elements within cross reference content.
 */
-#[derive(crate::Marker!)]
-pub struct X;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct X(bool);
 crate::impl_paired_tag!(X, "x");

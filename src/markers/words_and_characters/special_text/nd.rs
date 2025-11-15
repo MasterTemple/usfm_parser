@@ -20,6 +20,6 @@ what all future generations are to call me.
 ```
 
 */
-#[derive(crate::Marker!)]
-pub struct ND;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct ND(bool);
 crate::impl_paired_tag!(ND, "nd");

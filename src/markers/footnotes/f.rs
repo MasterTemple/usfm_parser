@@ -28,6 +28,6 @@
 
 > Notes which are intended as "Endnotes" should be marked using the following alternative format:
 */
-#[derive(crate::Marker!)]
-pub struct F;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct F(bool);
 crate::impl_paired_tag!(F, "f");

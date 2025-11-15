@@ -9,6 +9,6 @@
 - **Use**: Inline quotation reference(s). \
     See details and examples in `Titles, Heading, and Labels`
 */
-#[derive(crate::Marker!)]
-pub struct RQ;
+#[derive(crate::Marker!, crate::Deref!)]
+pub struct RQ(bool);
 crate::impl_paired_tag!(RQ, "rq");
