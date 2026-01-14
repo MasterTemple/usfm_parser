@@ -6,6 +6,8 @@ use from_nested_tuple::FromTuple;
 // use crate::markers::markers::MarkerParsing;
 use crate::markers::markers::any::AnyMarker;
 
+pub mod usj;
+
 pub enum NodeType {
     Leaf,
     SomeContent,
@@ -31,6 +33,9 @@ pub struct Node<'a> {
 }
 
 pub struct Document<'a> {
+    // TODO: Could be enum
+    r#type: String,
+    version: String,
     content: String, // could be Cow<> or Rc<>
     nodes: Vec<Node<'a>>,
 }

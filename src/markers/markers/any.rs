@@ -3,6 +3,7 @@ use crate::markers::markers::{parser::MarkerComponents, tag::TAG_MAP};
 use super::all::*;
 use enum_dispatch::enum_dispatch;
 
+// TODO: Sub-enum to create AnyMarker, BookMarker, ParagraphMarker, ...
 #[enum_dispatch]
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord)]
 pub enum AnyMarker {
