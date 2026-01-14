@@ -4,7 +4,7 @@ use chumsky::{Parser, error::Simple};
 use from_nested_tuple::FromTuple;
 use serde::{Deserialize, Serialize};
 
-use crate::ids::{code::BookCode, slug::SlugId};
+use crate::ids::{code::BookCode, slug::either::SlugId};
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct UsjDocument {
@@ -156,7 +156,7 @@ mod tests {
         let res = serde_json::to_string_pretty(&MarkerObjectEnum::Chapter {
             marker: "id".to_string(),
             number: "1".into(),
-            sid: SlugId::chapter(BookCode::Genesis, 1),
+            sid: SlugId::new_chapter(BookCode::Genesis, 1),
         })
         .unwrap();
         println!("{res}");

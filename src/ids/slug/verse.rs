@@ -1,0 +1,128 @@
+use std::{fmt::Display, str::FromStr};
+
+use chumsky::error::Rich;
+use chumsky::extra::Err;
+use chumsky::prelude::*;
+use chumsky::text::{Char, digits, inline_whitespace, newline, whitespace};
+use chumsky::{Parser, error::Simple};
+
+use from_nested_tuple::FromTuple;
+use serde::{Deserialize, Serialize};
+
+use crate::ids::code::BookCode;
+
+#[derive(crate::Cmp!)]
+#[derive(Debug, Clone, FromTuple)]
+pub struct VerseSlug {
+    book: BookCode,
+    chapter: u8,
+    verse: u8,
+}
+
+impl VerseSlug {
+    pub fn new(book: BookCode, chapter: u8, verse: u8) -> Self {
+        Self {
+            book,
+            chapter,
+            verse,
+        }
+    }
+    pub fn book(&self) -> BookCode {
+        self.book
+    }
+    pub fn chapter(&self) -> u8 {
+        self.chapter
+    }
+    pub fn verse(&self) -> u8 {
+        self.verse
+    }
+}
+
+impl Display for VerseSlug {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{} {}:{}", self.book, self.chapter, self.verse)
+    }
+}
+
+impl Serialize for VerseSlug {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: serde::Serializer,
+    {
+        serializer.collect_str(&self.to_string())
+    }
+}
+
+
+impl VerseSlug {
+    pub fn parser<'a>() -> impl Parser<'a, &'a str, Self, Err<Rich<'a, char>>> {
+        any()
+            .filter(|c: &char| c.is_alphabetic())
+            .repeated()
+            .at_least(1)
+            .to_slice()
+            .try_map(|s, span| BookCode::from_str(s).map_err(|e| Rich::custom(span, e)))
+            // .then_ignore(inline_whitespace())
+            .then_ignore(just(" "))
+            .then(
+                digits(10)
+                    .to_slice()
+                    // .map(|n: &'a str| n.parse::<u8>().unwrap())
+                    .try_map(|n: &str, span| n.parse::<u8>().map_err(|e| Rich::custom(span, e))),
+            )
+            .then(
+                just(":").ignore_then(
+                    digits(10)
+                        .to_slice()
+                        // .map(|n: &'a str| n.parse::<u8>().unwrap()),
+                        .try_map(|n: &str, span| {
+                            n.parse::<u8>().map_err(|e| Rich::custom(span, e))
+                        }),
+                ),
+            )
+            .map(FromTuple::from_tuple)
+    }
+}
+
+impl FromStr for VerseSlug {
+    type Err = String;
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        // Pad here because this function will likely be used on its own
+        Self::parser()
+            .padded()
+            .parse(s)
+            .into_result()
+            .map_err(|e| e.first().unwrap().to_string())
+    }
+}
+
+impl<'de> Deserialize<'de> for VerseSlug {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: serde::Deserializer<'de>,
+    {
+        // TODO: to avoid allocation: https://github.com/serde-rs/serde/issues/908#issuecomment-2929512791
+        let s = String::deserialize(deserializer)?;
+        FromStr::from_str(&s).map_err(serde::de::Error::custom)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn verse_slug() {
+        dbg!(VerseSlug::from_str("GEN 1"));
+        dbg!(VerseSlug::from_str("GEN 1:"));
+        dbg!(VerseSlug::from_str("GEN 1:2"));
+        // dbg!(SlugId::parser2().parse("GEN 1:1").into_result());
+        // dbg!(SlugId::parser2().parse("GEN Z").into_result());
+        // dbg!(SlugId::parser2().parse("GEN ").into_result());
+        // dbg!(SlugId::parser2().parse("GEN").into_result());
+        // dbg!(SlugId::parser2().parse("GEN 1:").into_result());
+        // dbg!(SlugId::parser2().parse("GEN 1: ").into_result());
+        // dbg!(SlugId::parser2().parse("GEN 1:Z").into_result());
+    }
+
+}
