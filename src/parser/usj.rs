@@ -9,6 +9,9 @@ use crate::ids::{
     slug::{chapter::ChapterSlug, either::SlugId, verse::VerseSlug},
 };
 
+/**
+Mean to model the [`USJ Schema`](https://github.com/usfm-bible/tcdocs/blob/main/grammar/usj.js)
+*/
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct UsjDocument {
     /// The kind of node/element/marker this is.
@@ -21,11 +24,12 @@ pub struct UsjDocument {
     pub content: Vec<ContentItem>,
 }
 
-// TODO: If I make MarkerObject an enum, then it can hold the Text variant
-
-/// A value that can appear inside the `content` arrays.
-///
-/// The schema allows either a plain string **or** a nested `markerObject`.
+/**
+* - I could make [`MarkerObject`] hold the `Text` variant, but then certain methods like
+`type` would now return `Option<T>` instead of `T`
+- A value that can appear inside the `content` arrays.
+- The schema allows either a plain string **or** a nested [`MarkerObject`].
+*/
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(untagged)]
 pub enum ContentItem {
@@ -36,60 +40,12 @@ pub enum ContentItem {
     Marker(MarkerObject),
 }
 
-// /// The definition that lives under `#/$defs/markerObject`.
-// #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-// pub struct MarkerObject {
-//     /// The kind/category of node or element this is,
-//     /// corresponding the USFM marker and USX node.
-//     pub r#type: String,
-//
-//     /// The corresponding marker in USFM or style in USX.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub marker: Option<String>,
-//
-//     /// Child content – a heterogeneous array that may contain plain strings
-//     /// or further `MarkerObject`s (recursive).
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub content: Option<Vec<ContentItem>>,
-//
-//     /// Indicates the Book‑chapter‑verse value in the paragraph‑based structure.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub sid: Option<SlugId>,
-//
-//     /// Chapter number or verse number.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub number: Option<String>,
-//
-//     /// The 3‑letter book code in `id` element.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub code: Option<BookCode>,
-//
-//     /// Alternate chapter number or verse number.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub altnumber: Option<String>,
-//
-//     /// Published character of chapter or verse.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub pubnumber: Option<String>,
-//
-//     /// Caller character for footnotes and cross‑refs.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub caller: Option<String>,
-//
-//     /// Alignment of table cells.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub align: Option<String>,
-//
-//     /// Category of extended study‑bible sections.
-//     #[serde(skip_serializing_if = "Option::is_none")]
-//     pub category: Option<String>,
-// }
+// TODO: change `marker: String` to marker enums with the appropriate subset of tags
 
 /// The definition that lives under `#/$defs/markerObject`.
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(tag = "type")]
 pub enum MarkerObject {
-    // { type: 'book', marker: 'id', code: 'GEN', content: [] },
     #[serde(rename = "book")]
     Book {
         /// The corresponding marker in USFM or style in USX.
@@ -98,13 +54,13 @@ pub enum MarkerObject {
         /// The 3‑letter book code in `id` element.
         code: BookCode,
 
-        // TODO: Why is this empty sometimes?
+        // TODO: Is this always empty for books?
         //
         /// Child content – a heterogeneous array that may contain plain strings
         /// or further `MarkerObject`s (recursive).
         content: Vec<ContentItem>,
     },
-    // { type: 'chapter', marker: 'c', number: '1', sid: 'GEN 1' },
+
     #[serde(rename = "chapter")]
     Chapter {
         /// The corresponding marker in USFM or style in USX.
@@ -117,29 +73,54 @@ pub enum MarkerObject {
         /// Indicates the Book‑chapter‑verse value in the paragraph‑based structure.
         sid: ChapterSlug,
     },
+
     #[serde(rename = "verse")]
     Verse {
+        /// The corresponding marker in USFM or style in USX.
         marker: String,
+
+        /// Chapter number or verse number.
         number: String,
+
         /// Indicates the Book‑chapter‑verse value in the paragraph‑based structure.
         sid: VerseSlug,
     },
+
     #[serde(rename = "para")]
     Paragraph {
+        /// The corresponding marker in USFM or style in USX.
         marker: String,
+
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
         content: Vec<ContentItem>,
     },
+
     #[serde(rename = "char")]
     Character {
+        /// The corresponding marker in USFM or style in USX.
         marker: String,
+
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
         content: Vec<ContentItem>,
     },
+
     #[serde(rename = "ms")]
-    Milestone { marker: String },
+    Milestone {
+        /// The corresponding marker in USFM or style in USX.
+        marker: String,
+    },
+
     #[serde(rename = "note")]
     Note {
+        /// The corresponding marker in USFM or style in USX.
         marker: String,
+
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
         content: Vec<ContentItem>,
+
         /// Caller character for footnotes and cross‑refs.
         caller: String,
     },
@@ -160,7 +141,15 @@ pub enum MarkerObject {
 }
 
 impl MarkerObject {
+    // TODO: Change to [`AnyMarker`] once impl'd
+    //
+    /// The kind/category of node or element this is, corresponding the USFM marker and USX node.
+    pub fn r#type(&self) -> String {
+        todo!()
+    }
+
     // TODO: Why is this optional? It seems always present
+    //
     /// The corresponding marker in USFM or style in USX.
     pub fn marker(&self) -> Option<&String> {
         Some(match self {
