@@ -956,3 +956,10 @@ pub enum BookCode {
     #[serde(rename = "XXG")]
     ExtraMaterialG,
 }
+
+// impl BookCode {
+//     /// This returns a `&str` because there are 'numbers' like `A1`
+//     pub fn number(&self) -> &'static str {}
+//     /// These are 3-character identifiers, such as `"GEN"` for `"Genesis"`
+//     pub fn identifier(&self) -> &'static str {}
+// }
