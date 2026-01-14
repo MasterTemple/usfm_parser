@@ -12,7 +12,7 @@ use serde::{Deserialize, Serialize};
 use crate::ids::code::BookCode;
 
 #[derive(crate::Cmp!)]
-#[derive(Debug, Clone, FromTuple)]
+#[derive(Debug, Copy, Clone, FromTuple)]
 pub struct ChapterSlug {
     book: BookCode,
     chapter: u8,
@@ -87,3 +87,4 @@ impl<'de> Deserialize<'de> for ChapterSlug {
         FromStr::from_str(&s).map_err(serde::de::Error::custom)
     }
 }
+

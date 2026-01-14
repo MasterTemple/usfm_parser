@@ -12,7 +12,7 @@ use serde::{Deserialize, Serialize};
 use crate::ids::code::BookCode;
 
 #[derive(crate::Cmp!)]
-#[derive(Debug, Clone, FromTuple)]
+#[derive(Debug, Copy, Clone, FromTuple)]
 pub struct VerseSlug {
     book: BookCode,
     chapter: u8,
@@ -52,7 +52,6 @@ impl Serialize for VerseSlug {
         serializer.collect_str(&self.to_string())
     }
 }
-
 
 impl VerseSlug {
     pub fn parser<'a>() -> impl Parser<'a, &'a str, Self, Err<Rich<'a, char>>> {
@@ -124,5 +123,5 @@ mod tests {
         // dbg!(SlugId::parser2().parse("GEN 1: ").into_result());
         // dbg!(SlugId::parser2().parse("GEN 1:Z").into_result());
     }
-
 }
+
