@@ -70,6 +70,12 @@ pub enum MarkerObject {
         // TODO: Why is this is a string?
         number: String,
 
+        /// `\ca`: Alternate chapter number
+        altnumber: Option<String>,
+
+        /// `\cp`: Published character of chapter
+        pubnumber: Option<String>,
+
         /// Indicates the Book‑chapter‑verse value in the paragraph‑based structure.
         sid: ChapterSlug,
     },
@@ -81,6 +87,12 @@ pub enum MarkerObject {
 
         /// Chapter number or verse number.
         number: String,
+
+        /// `\va`: Alternate verse number.
+        altnumber: Option<String>,
+
+        /// `\vp`: Published character of chapter or verse.
+        pubnumber: Option<String>,
 
         /// Indicates the Book‑chapter‑verse value in the paragraph‑based structure.
         sid: VerseSlug,
@@ -124,20 +136,63 @@ pub enum MarkerObject {
         /// Caller character for footnotes and cross‑refs.
         caller: String,
     },
-    /*
-    TODO: What about these fields?
+    // TODO: I see `'table:cell'` and `'table:row'`
+    #[serde(rename = "table")]
+    Table {
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
+        content: Vec<ContentItem>,
+    },
+    #[serde(rename = "table:row")]
+    TableRow {
+        /// The corresponding marker in USFM or style in USX.
+        marker: String,
 
-    /// Alternate chapter number or verse number.
-    altnumber: Option<String>,
-    /// Published character of chapter or verse.
-    pubnumber: Option<String>,
-    /// Caller character for footnotes and cross‑refs.
-    caller: Option<String>,
-    /// Alignment of table cells.
-    align: Option<String>,
-    /// Category of extended study‑bible sections.
-    category: Option<String>,
-    */
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
+        content: Vec<ContentItem>,
+    },
+    #[serde(rename = "table:cell")]
+    TableCell {
+        /// The corresponding marker in USFM or style in USX.
+        marker: String,
+
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
+        content: Vec<ContentItem>,
+        /// Alignment of table cells.
+        // usjGenerator:283
+        align: String,
+    },
+    // TODO: Not sure what goes in here, or if I am misreading `nodeToUSJSpecial` at `nodeToUSJSpecial.js:358` wrong
+    #[serde(rename = "figure")]
+    Figure {
+        /// The corresponding marker in USFM or style in USX.
+        marker: String,
+
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
+        content: Vec<ContentItem>,
+    },
+    // TODO: Not sure what goes in here, or if I am misreading `nodeToUSJSpecial` at `nodeToUSJSpecial.js:358` wrong
+    #[serde(rename = "ref")]
+    Ref {
+        /// The corresponding marker in USFM or style in USX.
+        marker: String,
+
+        /// Child content – a heterogeneous array that may contain plain strings
+        /// or further `MarkerObject`s (recursive).
+        content: Vec<ContentItem>,
+    },
+    // TODO: Not sure what goes in here, or if I am misreading `nodeToUSJSpecial` at `nodeToUSJSpecial.js:358` wrong
+    #[serde(rename = "cat")]
+    Category {},
+    // TODO: Not sure what goes in here, or if I am misreading `nodeToUSJSpecial` at `nodeToUSJSpecial.js:358` wrong
+    #[serde(rename = "esb")]
+    ESB {},
+    // TODO: Not sure what goes in here, or if I am misreading `nodeToUSJSpecial` at `nodeToUSJSpecial.js:358` wrong
+    #[serde(rename = "sidebar")]
+    Sidebar {},
 }
 
 impl MarkerObject {
@@ -160,6 +215,11 @@ impl MarkerObject {
             MarkerObject::Character { marker, .. } => marker,
             MarkerObject::Milestone { marker } => marker,
             MarkerObject::Note { marker, .. } => marker,
+            MarkerObject::TableRow { marker, .. } => marker,
+            MarkerObject::TableCell { marker, .. } => marker,
+            MarkerObject::Figure { marker, .. } => marker,
+            MarkerObject::Ref { marker, .. } => marker,
+            _ => None?,
         })
     }
 
@@ -247,6 +307,8 @@ mod tests {
             marker: "id".to_string(),
             number: "1".into(),
             sid: ChapterSlug::new(BookCode::Genesis, 1),
+            altnumber: None,
+            pubnumber: None,
         })
         .unwrap();
         println!("{res}");
